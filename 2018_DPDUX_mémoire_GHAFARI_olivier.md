@@ -61,3 +61,27 @@ Du plus récent au plus ancien :<br>
   * [Mémoire de Mike Alger](https://drive.google.com/file/d/0B19l7cJ7tVJyRkpUM0hVYmxJQ0k/view)
   * [Les bonnes et les mauvaises choses du design d'outils en VR](http://blog.leapmotion.com/designing-vr-tools-good-bad-ugly/)
   * [Les interfaces de programmation visuelle, différentes formes pour différents types](https://medium.com/@stevekrouse/types-are-shapes-d6af1e83192f)
+
+4. Ma problématique préférée
+
+La réalité virtuelle & la réalité augmenté comme outil de programmation informatique.
+
+_Qui_ ? Les développeurs
+<br>_Quoi_ ? La développement logiciel, web.
+<br>_Où_ ? Dans la VR/AR, au bureau
+<br>_Quand_ ? Dans un futur proche
+<br>_Comment_ ? A l'aide de nouvelles interfaces, visuelles, 3D…
+<br>_Pourquos_ ? Inadapté à l'usage de l'IT aujourd'hui, possède de nombreux avantages
+<br>_Combien_ ? Gratuit.
+
+5. Mes hypothèses, réponses possibles, comment les vérifier.
+
+Le travail en informatique aujourd'hui n'est pas adaptée à la VR. Les devices ont évolués en suivant une évolution de l'homme : l'écriture. Invention très présente dans nos modes de travail. Écran plats, pas de volumes, 2D, haute résolution. 
+
+La VR ne serait pas adaptée à l'écriture et à la rédaction de texte. Vue complétement ou partiellement cachée, lentilles et champs de vision restreinte.
+
+Ajout d'une troisième dimension a une importante valeur ajoutée  dans la construction et la visualisation de système complexes. (ref cosmonautes visualisation du terrain de mars). Hors les programmes informatiques sont des systèmes complexes.
+
+Une spatialisation de l'espace de travail permet un gain de productivité. Mais celui-ci peut devenir contraignant : mouvements champs de vision etc...
+
+Si nous voulons utiliser la VR comme outil de programmation informatique, et non plus comme appareils d'experience visuelle, nous devons repenser notre manière de développer. Peut-être en utilisant des interfaces visuelles, peut-être des blocs, ou de la 3D ?
