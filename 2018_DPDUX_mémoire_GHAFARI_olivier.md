@@ -100,3 +100,16 @@ Des choses existe déjà. La programmation visuelle utilise des blocs agencés e
 
 Pour quoi ces méthodologie ne sont pas utilisée de manière régulière ? Car elle se retrouve moins performante face à l'écriture de code. Il serait interressant de mieux comprendre pourquoi cela a échoué.
 
+7. Modélisation
+
+La manipulation d'objet est aisée en VR. Pourrions-nous utiliser l'agencement d'objet 3D pour développer ? Il faudrait alors modeliser chaque élément de synthaxe sous une forme particulière. Commençons par lister les principaux éléments de synthaxe de la programmation informatique :
+
+| Variables | Opérateurs | Conditions | Boucles | Fonctions |
+|:---------:|:----------:|:----------:|:-------:|:---------:|
+| booléens  | affectation   | if/else | for     | 
+| nombres   | comparaison   | switch/case | do/while |
+| tableaux  | arithmétiques | try/catch | while |
+| textes    | binaires      |         | for/in  |
+| objets    | logiques      |         | for/of  |
+|           | chaînes       |
+|           | ternaire      |
