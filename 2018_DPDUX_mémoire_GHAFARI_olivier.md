@@ -85,3 +85,18 @@ Ajout d'une troisième dimension a une importante valeur ajoutée  dans la const
 Une spatialisation de l'espace de travail permet un gain de productivité. Mais celui-ci peut devenir contraignant : mouvements champs de vision etc...
 
 Si nous voulons utiliser la VR comme outil de programmation informatique, et non plus comme appareils d'experience visuelle, nous devons repenser notre manière de développer. Peut-être en utilisant des interfaces visuelles, peut-être des blocs, ou de la 3D ?
+
+6. Réflexions :
+
+Écrire du texte en VR est une chose compliqué. Si la méthode de saisie du texte a une vitesse inférieure à 60 mots par minutes, cette méthode de saisie ne sera pas retenue par les utilisateurs. Ceux-ci auront tendance à revenir à leur pratique précédente. L'utilisation du clavier leur permet d'atteindre 60+ mots par minute.
+
+Heuresement, le développement informatique se rapproche plus de construction algorithmique que de rédaction de texte litteraire.
+En ce sens beaucoup d'éléments sont récurents. Tel que : les variables, les opérateurs, les instructions conditionnelles, les boucles, les fonctions.
+
+La VR n'est pas adaptée à l'écriture de texte et sa lecture. C'est pour cela que la VR ne surpasse pas l'ordinateur pour le développement informatique. En revanche, les avantages qu'apporte la VR pourrait permettre l'emergence d'une solution. Une solution au développement informatique en VR.
+
+L'utilisation et l'agencement de forme pourrait être une solution envisageable en lieu et place de l'écriture de code.
+Des choses existe déjà. La programmation visuelle utilise des blocs agencés entre eux. La programmation tangible utilise des objets physique agencés entre eux pour la construction d'algorithmes. L'UML permet la visualisation de la conception d'un système.
+
+Pour quoi ces méthodologie ne sont pas utilisée de manière régulière ? Car elle se retrouve moins performante face à l'écriture de code. Il serait interressant de mieux comprendre pourquoi cela a échoué.
+
