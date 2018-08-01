@@ -113,3 +113,16 @@ La manipulation d'objet est aisée en VR. Pourrions-nous utiliser l'agencement d
 | objets    | logiques      |             | for/of   |
 |           | chaînes       |
 |           | ternaire      |
+
+Pour tenter le design d'une interface, j'ai voulu utiliser un code simple en javascript qui effectue une action basique.
+En commençant la modélisation, une idée m'est apparu. La manière de programmer est très intimement lié au language utilisé. Nous appelons ça un paradigme de programmation.
+
+8. Paradigme de programmation
+Le paradigme de programmation détermine la vue qu'a le développeur de l'execution de son programme. Aucune manière de programmer en VR n'a été créer jusqu'ici. Utiliser un code javascript et essayer de construire une nouvelle interface de programmation en VR serait une erreur. En effet rien assure que le paradigme de programmation utilisé dans le code est le bon pour la programmation en VR/AR. Le bon paradigme existe-t-il déjà ? Quel paradigme pourrait être inspirant pour notre utilisation ? Un nouveau paradigme de programmation doit-il être créer ?
+
+Une recherche s'impose parmis la multitude de paradigme déjà existant. Il existe trois grande famille de paradigme de programmation :
+  * Types de programmation impérative (et dérivés)
+  * Types de programmation orientée objet (et dérivés)
+  * Types de programmation déclarative (et dérivés)
+  * Inclassables tels que : évènementielle, orienté flux, par contrat …
+
