@@ -126,3 +126,6 @@ Une recherche s'impose parmis la multitude de paradigme déjà existant. Il exis
   * Types de programmation déclarative (et dérivés)
   * Inclassables tels que : évènementielle, orienté flux, par contrat …
 
+La programmation orienté objet s'inscrit particulièrement bien pour la VR. La VR est un endroit où l'on visualise des objets 3D. 
+
+La prgrammation fonctionnelle, quand à elle, est interressante car elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
