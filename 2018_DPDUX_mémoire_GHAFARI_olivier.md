@@ -129,3 +129,14 @@ Une recherche s'impose parmis la multitude de paradigme déjà existant. Il exis
 La programmation orienté objet s'inscrit particulièrement bien pour la VR. La VR est un endroit où l'on visualise des objets 3D. 
 
 La prgrammation fonctionnelle, quand à elle, est interressante car elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
+
+9. Convergence du design et du développement.
+Le web a toujours rapproché le design du développement. En effet, le visuel a une place forte pour la navigation sur internet. Là où le développement back le laisse totalement tomber. Le développement backend n'as pas besoin de backend. Celui-ci est purement fonctionnel. 
+La VR laissant une place très importante au visuel, la programmation dans celle-ci se rapproche plus du développement front-end que du développement back-end.
+
+Le développement Front-end dissocie le design du code. Insérer de la logique dans du design devient rapidement compliqué de part la différence de types des deux informations, et de la limitation de l'espace de travail. 
+La VR amène une contrainte et un avantage : La contrainte d'utiliser le moins possible l'écriture et l'avantage d'avoir un espace de travail relativement infini.
+
+La programmation dans la VR pourrait être une programmation orienté objets avec des objets 3D, au sein même de la scene 3D.
+Ainsi, la programmation directe des objets permet de s'abstenir de creer et nommer les variables. On peut lier directement les objets à leur fonctionnements, propriétés et méthodes. 
+
