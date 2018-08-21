@@ -153,8 +153,11 @@ Les utilisateurs de code dans la VR / AR sont les développeurs de VR / AR.
 Quels sont leur pain points ? 
 Je suppose que le principale painpoint est de changer entre Réalité et VR lorsqu'ils développent et lorsqu'ils testent en condition réelle. Enlever et mettre à nouveau le masque est quelque-chose de contraignant. (Compléter avec d'autres points contraignants)
 
-13. Intégration de l'écriture de code dans la VR
-
+13. Problématique de visibilité du clavier
+Pour retirer cette contraintes, un solution serait de pouvoir écrire le code sans devoir retirer son casque.
+Deux problématiques apparaissent ici : 
+  - La première est de pouvoir voir ces touches de clavier. En effet seulement (tant de % ) de développeur codent sans regarder leur clavier.
+  - La seconde est de pouvoir voir où se situe le clavier : (tant de %) des appareils de VR/AR utilisent un controleur (hors visionneuses simple). Pour les tests sur ces appareils, les développeurs doivent retirer leurs mains du clavier afin de saisir les contrôleurs. Après le test de l'application, il est nécessaire de retrouver le clavier de vue pour continuer le développement.
 
 14. La programmation logique, ce qui est existant
-LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Le système permet d'effectuer la majorité des opérations courantes. Malheuresement la programmation devient vite plus maintenable de part la multitude d'éléments visible et de leur interconnections. 
+LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Le système permet d'effectuer la majorité des opérations courantes. Malheuresement la programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. 
