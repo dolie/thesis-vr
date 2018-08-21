@@ -140,3 +140,17 @@ La VR amène une contrainte et un avantage : La contrainte d'utiliser le moins 
 La programmation dans la VR pourrait être une programmation orienté objets avec des objets 3D, au sein même de la scene 3D.
 Ainsi, la programmation directe des objets permet de s'abstenir de creer et nommer les variables. On peut lier directement les objets à leur fonctionnements, propriétés et méthodes. 
 
+10. Premier retour des tests 
+Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » Je ne pense pas avoir trouvé la solution pour remplacer le code, celui-ci étant très explicite et clair dès qu'on le voit. 
+
+11. Fausse route
+Il y a évidemment un problème d'ergonomie entre l'écriture de code et la VR et AR. 
+Je penses faire fausse route. Reprenons depuis le début.
+
+12. Comprendre ses utilisateurs
+La première chose est de comprendre qui sont les utilisateurs du code pour la VR/AR.
+Les utilisateurs de code dans la VR / AR sont les développeurs de VR / AR.
+Quels sont leur pain points ? 
+Je suppose que le principale painpoint est de changer entre Réalité et VR lorsqu'ils développent et lorsqu'ils testent en condition réelle. Enlever et mettre à nouveau le masque est quelque-chose de contraignant. (Compléter avec d'autres points contraignants)
+
+13. Intégration de l'écriture de code dans la VR
