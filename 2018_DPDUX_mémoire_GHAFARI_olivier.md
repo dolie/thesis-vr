@@ -154,3 +154,7 @@ Quels sont leur pain points ? 
 Je suppose que le principale painpoint est de changer entre Réalité et VR lorsqu'ils développent et lorsqu'ils testent en condition réelle. Enlever et mettre à nouveau le masque est quelque-chose de contraignant. (Compléter avec d'autres points contraignants)
 
 13. Intégration de l'écriture de code dans la VR
+
+
+14. La programmation logique, ce qui est existant
+LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Le système permet d'effectuer la majorité des opérations courantes. Malheuresement la programmation devient vite plus maintenable de part la multitude d'éléments visible et de leur interconnections. 
