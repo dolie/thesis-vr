@@ -177,3 +177,11 @@ Je me suis donc concentré sur les casques VR qui offrent le plus de défis erg
 
 17. Espace de travail.
 Dans un premier temps, déterminons l'environnement de travail typique d'un développeur. Un bureau de 1 mètre sur 1.5 mètre à une hauteur de 80 centimètres, sur lequel repose l'ordinateur et le clavier. Ce bureau se trouve à l'avant d'un espace libre d'environ 2 mètres sur 2 mètres dans lequel le développeur peut se déplacer librement.
+
+Le développeur doit pouvoir écrire sont code et tester aisément. Pour cela il doit pouvoir voir son clavier. De manière clair ou à minima l'emplacement du clavier et l'emplacement des touches. Il doit être en capacité de pouvoir retrouver son clavier un fois le test lancé. Il doit être aussi en mesure de retrouver sa chaise dans le cas où il doit se lever pour tester l'application.
+Voici différents prototypes d'agencement d'espace de travail.
+  - Le mode chaperon est constamment activé sur la zone définie par l'utilisateur.
+  - Le clavier est détecté par les stations et modélisé dans la VR (Système identique au système des contrôleur du HTC Vive). Le problème de la visiblité des main se pose. Cette problématique est importante car on ne sait pas ou sera posé exactement nos doigts. On peut imaginer le mode chaperon activé uniquement pour les mains.
+  - Le clavier est détecté par la caméra (embarquée ou déportée) et retransmet une image réduite uniquement focalisée sur le clavier avec une opacité de l'image réglable. Comme une fenêtre dans la VR donnant sur la réalité.
+  - Cette même fênetre pourrait être activée et désactivée, selon si l'utilisateur pose les manettes de chaques côté du clavier ou non. Lorsque les manettes sont prises en mains la fênetre se ferme. Pour réactiver la fenêtre, les manettes doivent être replacée à l'endroit indiqué par des tâches (de chaques côté du clavier, ou défini par l'utilisateur).
+  - Le mode Chaperon est activé lors de la sortie de l'espace de jeu, afin de voir les obstacles, ou pour retrouver sa chaise par exemple.
