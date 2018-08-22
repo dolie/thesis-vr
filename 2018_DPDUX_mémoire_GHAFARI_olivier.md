@@ -169,3 +169,11 @@ La solution idéale serait de pouvoir voir son clavier, tout en portant le casqu
 Dans le premier cas, le clavier est directement visible, les objets 3D se superposent à là réalité à l'aide d'une lentille.
 Dans le second cas, la caméra est souvent désactivée par défaut. Ça permet une immersion complète dans l'expérience. D'où le nom de Réalité Virtuelle et non de Réalité Augmentée.
 Lorsque celle-ci est activée, la réalité est visible complètement — l'expérience virtuelle s'arrête — , soit au travers d'une petite fenêtre, soit en supperposition à l'experienc VR avec une opacité réduite ou stylisée avec un filtre passe-haut appliquée à l'image par exemple.
+
+16. Place du clavier dans l'experience VR.
+La problématique à présent est de savoir comment s'articulerait d'un point de vue materiel, l'utilisation du clavier au sein de l'AR et de la VR.
+Les casques d'AR utilisant principalement des lentilles transparente, le clavier est naturellement remarquable dans l'environnement de l'utilisateur. Dans le cas d'une expérience AR intensive, et que le clavier n'est plus visible, on imaginera possible la localisation du clavier d'une seule action, à l'aide d'un mise en lumière, de contour ou autre. Concernant l'utilisation de casque opaques — les casques VR — il faut prendre en compte plusieurs paramètres.
+Je me suis donc concentré sur les casques VR qui offrent le plus de défis ergonomiques.
+
+17. Espace de travail.
+Dans un premier temps, déterminons l'environnement de travail typique d'un développeur. Un bureau de 1 mètre sur 1.5 mètre à une hauteur de 80 centimètres, sur lequel repose l'ordinateur et le clavier. Ce bureau se trouve à l'avant d'un espace libre d'environ 2 mètres sur 2 mètres dans lequel le développeur peut se déplacer librement.
