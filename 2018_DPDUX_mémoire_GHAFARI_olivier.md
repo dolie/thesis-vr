@@ -161,3 +161,11 @@ Pour retirer cette contraintes, un solution serait de pouvoir écrire le code sa
 Deux problématiques apparaissent ici : 
   - La première est de pouvoir voir ces touches de clavier. En effet seulement (tant de % ) de développeur codent sans regarder leur clavier.
   - La seconde est de pouvoir voir où se situe le clavier : (tant de %) des appareils de VR/AR utilisent un controleur (hors visionneuses simple). Pour les tests sur ces appareils, les développeurs doivent retirer leurs mains du clavier afin de saisir les contrôleurs. Après le test de l'application, il est nécessaire de retrouver le clavier de vue pour continuer le développement.
+
+15. Voir son clavier au travers du casque.
+La solution idéale serait de pouvoir voir son clavier, tout en portant le casque. Plusieurs solutions existent déjà :
+  - Avoir un casque transparent, ce qui est le cas pour certain casque AR (Magic Leap, Project North Star,…)
+  - Avoir un casque possédant une caméra sur la face avant, pouvant retransmettre l'image dans le casque (HTC Vive, Vive Pro, Lenovo Explorer, Lenovo mirage )
+Dans le premier cas, le clavier est directement visible, les objets 3D se superposent à là réalité à l'aide d'une lentille.
+Dans le second cas, la caméra est souvent désactivée par défaut. Ça permet une immersion complète dans l'expérience. D'où le nom de Réalité Virtuelle et non de Réalité Augmentée.
+Lorsque celle-ci est activée, la réalité est visible complètement — l'expérience virtuelle s'arrête — , soit au travers d'une petite fenêtre, soit en supperposition à l'experienc VR avec une opacité réduite ou stylisée avec un filtre passe-haut appliquée à l'image par exemple.
