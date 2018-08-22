@@ -159,8 +159,8 @@ Je suppose que le principale painpoint est de changer entre Réalité et VR lors
 14. Problématique de visibilité du clavier
 Pour retirer cette contraintes, un solution serait de pouvoir écrire le code sans devoir retirer son casque.
 Deux problématiques apparaissent ici : 
-  - La première est de pouvoir voir ces touches de clavier. En effet seulement (tant de % ) de développeur codent sans regarder leur clavier.
-  - La seconde est de pouvoir voir où se situe le clavier : (tant de %) des appareils de VR/AR utilisent un controleur (hors visionneuses simple). Pour les tests sur ces appareils, les développeurs doivent retirer leurs mains du clavier afin de saisir les contrôleurs. Après le test de l'application, il est nécessaire de retrouver le clavier de vue pour continuer le développement.
+  - La première est de pouvoir voir ces touches de clavier. En effet, 70 % des développeurs codent en regardant totalement ou partiellement leur clavier.
+  - La seconde est de retrouver son clavier : 80 % des appareils de VR/AR utilisent un controleur (hors visionneuses simple) . Pour les tests sur ces appareils, les développeurs doivent retirer leurs mains du clavier afin de saisir les contrôleurs. Après le test de l'application, il est nécessaire de retrouver le clavier de vue pour continuer le développement.
 
 15. Voir son clavier au travers du casque.
 La solution idéale serait de pouvoir voir son clavier, tout en portant le casque. Plusieurs solutions existent déjà :
