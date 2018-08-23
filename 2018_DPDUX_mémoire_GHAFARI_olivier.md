@@ -185,3 +185,20 @@ Voici différents prototypes d'agencement d'espace de travail.
   - Le clavier est détecté par la caméra (embarquée ou déportée) et retransmet une image réduite uniquement focalisée sur le clavier avec une opacité de l'image réglable. Comme une fenêtre dans la VR donnant sur la réalité.
   - Cette même fênetre pourrait être activée et désactivée, selon si l'utilisateur pose les manettes de chaques côté du clavier ou non. Lorsque les manettes sont prises en mains la fênetre se ferme. Pour réactiver la fenêtre, les manettes doivent être replacée à l'endroit indiqué par des tâches (de chaques côté du clavier, ou défini par l'utilisateur).
   - Le mode Chaperon est activé lors de la sortie de l'espace de jeu, afin de voir les obstacles, ou pour retrouver sa chaise par exemple.
+
+18. Les outils de création de contenu VR
+Plusieurs outil permettent de créer des scènes VR. Unity3D, Unreal Engine et permettent de créer du contenu VR avec beaucoup d'interactions, tels que des jeux vidéos; 3DS Max et Cinema 4D permettent de créer des scènes visionable avec peu d'interaction; tandis que A-frame et ReactVR permettent de réaliser de la VR dans le Web. 
+
+19. Interfaces de programmation VR : ce qui existe.
+Retrouver son clavier pour pouvoir développer ne suffit pas. L'écriture de code en VR doit s'articuler parfaitement avec les programmes existant. Aujourd'hui, des solutions existent, voici quelques exemples :
+  - RiftSquetch
+  - Primrose
+  - Autres prototypes inconnus
+  
+Le design de ces outils est assez similaire : 
+  - Le développeur est dans une scène où se trouve devant lui une fênetre dans laquelle il peut visionner et écrire le code. 
+  - Le code défini l'entièreté de la scène. C'est à dire qu'il ne peut pas avoir plusieur code pour une scène. Par exemple, il ne peut pas avoir une fenêtre de code par objets présents dans la scène. Tout est développé dans un seul fichier.
+  - Les objets de la scène ne peuvent pas être placés, manipulés, modifiés manuellement. Ce design oblige le développeur à placer les objets dans la scène, tandis que c'est le rôle du level designer. Le rôle du développeur est de programmer la logique, la mécanique de jeu, les moteurs physique et graphique…
+  - Le déplacement dans la scène est impossible
+  - La position de la fenêtre de code n'est pas intelligente, celle-ci est fixe.
+  - Ces outils ne fonctionnent pas pour des outils grand public comme énnoncés plus haut.
