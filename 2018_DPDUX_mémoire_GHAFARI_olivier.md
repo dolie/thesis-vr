@@ -202,3 +202,12 @@ Le design de ces outils est assez similaire :
   - Le déplacement dans la scène est impossible
   - La position de la fenêtre de code n'est pas intelligente, celle-ci est fixe.
   - Ces outils ne fonctionnent pas pour des outils grand public comme énnoncés plus haut.
+
+20. Design d'Interface de programmation VR
+Difficile de designer une interface de programmation VR pour chaque logiciels grand public présents et futurs. Néanmoins, des règles de bonnes pratique peuvent être définies. Des règles qui peuvent s'appliquer de manière générique, qui facilite la vie des développeurs. 
+  - L'utilisateur doit pouvoir se déplacer librement dans la scène, sans même avoir à bouger. Il peut en quelque sorte manipuler la scène : réduire la scène pour avoir une vision plus globale, ou déplacer la scène dans un sens ou dans un autre pour avoir la vision ciblée sur un élément particulier.
+  - L'utilisateur doit pouvoir sélectionner un élément pour en observer ou modifier ses propriétés de manière manuelle. Il peut modifier sa taille, sa position, rotation, texture etc… Lors de la sélection, un afficheur tête haute (HUD) apparaitrait non loin de l'objet afin d'en visionner / manipuler les propriétés.
+  - L'utilisateur doit être en mesure de voir et manipuler l'arborescence des objets dans la scène et dans le dossier des objets du projet. Ceci pourra se faire via une fenêtre omniprésente ou non, fixe ou mobile.
+  - L'utilisateur doit pouvoir accéder au code d'un objet, en le sélectionnant dans la scène ou dans les objets disponibles du projet.
+  - L'utilisateur peut lancer ou arrêter, ou mettre en pause la simulation. 
+  - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
