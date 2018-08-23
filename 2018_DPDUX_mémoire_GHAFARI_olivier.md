@@ -211,3 +211,5 @@ Difficile de designer une interface de programmation VR pour chaque logiciels gr
   - L'utilisateur doit pouvoir accéder au code d'un objet, en le sélectionnant dans la scène ou dans les objets disponibles du projet.
   - L'utilisateur peut lancer ou arrêter, ou mettre en pause la simulation. 
   - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
+
+` Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
