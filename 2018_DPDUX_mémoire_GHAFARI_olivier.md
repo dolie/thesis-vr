@@ -213,3 +213,45 @@ Difficile de designer une interface de programmation VR pour chaque logiciels gr
   - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
 
 ` Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
+
+21. Tester son design
+À ce point là, je me pose la question de comment puis-je tester mon design. En effet, une fois la solution designé, le produit doit être modifié, ou des fonctionnalités sont à coder. La question se pose donc : Comment tester que mon design est le bon avant même de se lancer dans une phase de développement très longue ?
+De même, le choix du logiciel et son étude de fonctionnement est un temps supplémentaire non négligeable à allouer.
+J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
+
+22. Qu'est-ce que le design fonctionnel ?
+En conception, le design fonctionnel est la resultante de l'analyse fonctionnel (dans le milieu de la conception, à ne pas confondre avec l'analyse fonctionnelle en mathématique).
+L'analyse fonctionnel est une démarche qui consiste à rechercher et caractériser les fonctionnalités offertes par un produit afin de satisfaire les besoins d'un utilisateur.
+
+https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence centrale lille.
+
+L'objectif de l'analyse fonctionnelle que je vais mener sera donc de formaliser et valider un besoin, puis de rechercher et caractériser les fonctions dans le but d'améliorer un produit ou un service.
+
+## Approche intuitive
+
+L'analyse fonctionnelle s'applique à tout ou une partie d'un ensemble d'un produit existant ou nouveau. Un produit peut-être soit materiel tel un objet physique, ou immateriel comme un processus, un service, une application.
+
+Mais avant tout, l'analyse fonctionnelle concerne un système. Un système est un ensemble d'éléments interagissant selon un principe.
+Les caracteristique de celui-ci sont : 
+  - des frontières et un environnement définies — je vais donc devoir définir ces frontières et cet environnement —
+  - Il réalise une mission
+  - Enfin il se maintient dans un environnement changeant.
+
+La première chose que l'on peut se poser lorsque l'on a un produit c'est : à qui sert-il ?
+Il faut donc définir les utilisateurs de ce produit ainsi que ses usagers.
+L'usager sera toute personne en relation avec ce produit, tandis que l'utilisateur sera la personne pour qui le produit aura été créer.
+
+Quel est l'environnement du produit ? La méthode pour le trouvé est assez simple; il suffit de se mettre à la place du produit et d'observer ce qu'il y a autour.
+Nous parlerons ici **d'interacteurs** du système pour nommer tous ces éléments de l'environnement.
+
+La question qui se pose ensuite est : à quoi sert le produit ? Il sert à une fonction principale mais aussi à beaucoup de fonctions secondaires. Nous devrons donc identifier et formuler toutes ces fonctions auquelles va répondre le produit.
+
+Enfin quelles sont les contraintes que doivent satisfaire le produit ? (Environement modulable, ne pas être trop consommateur de mémoire, ne pas porter atteinte au fichiers systèmes…) Je vais donc identifier et formuler toutes ces contraintes.
+
+Lorsque l'on fait une démarche d'analyse fonctionnelle, on doit prendre en compte le produit dans l'intégralité de son cycle de vie : 
+  - Étude (Besoin & marché, Fonctions de service, conception développement, définition)
+  - Réalisation (Industrialisation, fabrication, contrôle, conditionnement)
+  - Distribution (Vente, Transport stockage, Insallation, Mise en service )
+  - Utilisation (1ère exploitation, Maintenance & réparation, Arrêt de fonctionnement)
+  - Fin de vie (Démontage et tri, Recyclage, Stockage, Destruction)
+
