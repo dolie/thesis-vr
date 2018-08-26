@@ -255,3 +255,20 @@ Lorsque l'on fait une démarche d'analyse fonctionnelle, on doit prendre en comp
   - Utilisation (1ère exploitation, Maintenance & réparation, Arrêt de fonctionnement)
   - Fin de vie (Démontage et tri, Recyclage, Stockage, Destruction)
 
+## Le besoin et la bête à corne
+
+Le besoin est le désir éprouvé par un utilisateur (norme NF X50-150)
+Un besoin peut être Exprimé ou implicite, Avoué ou non, Latent.
+Le besoin peut évoluer au cours du temps, selon les innovations concurrents. (exemple fort boyard)
+Il faut donc valider la pérénité du besoin.
+
+Un produit: c’est ce qui est fourni à un utilisateur pour répondre à un besoin (norme NF X50-150)
+Pour faire un bon produit, il faut avoir identifié le vrai besoin
+
+Pour la re/conception d'un produit, on suit une logique de résolution de problème : 
+  - Besoin : Quel est le problème à résoudre ?
+  - Fonctions : Quelles sont les fonctions que le produit doit satisfaire ?
+  - Produit : Quelle est la réponse concrète au besoin du départ ?
+
+L'analyse fonctionnelle externe porte sur les deux premières parties. Tandis que l'analyse fonctionnelle interne concerne un produit déjà existant.
+
