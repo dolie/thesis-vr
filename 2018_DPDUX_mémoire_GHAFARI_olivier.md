@@ -87,19 +87,22 @@ Elle permet une spatialisation de l'espace de travail. Cette spacialisation perm
 
 Si nous voulons créer des expèriences en réalité virtuelle de manière efficace et de meilleure qualité, nous ne devons plus utiliser les appareils VR comme simple medium de visualisation. Nous devons les utiliser comme des outils à part entière, pour qu'ils soient partie intégrante de la phase de développement. Ceci signifie qu'il faut repenser l'utilisation des outils actuels : écrans, clavier, souris, casque VR, contrôleur VR… Cette analyse fonctionnelle et cette reflexion ergonomique doit se faire autant d'un poin de vue physique, que logiciel. 
 
-6. Réflexions :
+6. D'autres méthodes de programmation.
 
-Écrire du texte en VR est une chose compliqué. Si la méthode de saisie du texte a une vitesse inférieure à 60 mots par minutes, cette méthode de saisie ne sera pas retenue par les utilisateurs. Ceux-ci auront tendance à revenir à leur pratique précédente. L'utilisation du clavier leur permet d'atteindre 60+ mots par minute.
+Il est difficile de rédiger du texte en utilisant un casque de réalité virtuelle. En effet, le clavier n'est pas visible. 
 
-Heuresement, le développement informatique se rapproche plus de construction algorithmique que de rédaction de texte litteraire.
-En ce sens beaucoup d'éléments sont récurents. Tel que : les variables, les opérateurs, les instructions conditionnelles, les boucles, les fonctions.
+`Alors pouvons-nous nous passer du clavier pour développer ?`
+Se passer de clavier engendre une rédaction de texte nettement infèrieur. 
+`Est-il possible de programmer sans utiliser de texte ?`
+Le développement est une construction algorithmique avant tout. En ce sens, beaucoup d'éléments sont récurrents : Les variables, les opérateurs, les conditions, les boucles et enfin les fonctions. Ses éléments étant peu nombreux, ils pourraient être représentés sous formes de blocs et agencés entre eux pour construire les argorithmes. 
 
-La VR n'est pas adaptée à l'écriture de texte et sa lecture. C'est pour cela que la VR ne surpasse pas l'ordinateur pour le développement informatique. En revanche, les avantages qu'apporte la VR pourrait permettre l'emergence d'une solution. Une solution au développement informatique en VR.
+Ce genre de programmation existe et se retrouve dans plusieurs domaines. 
+Le premier étant l'électronique, où des portes logiques sont agencées entre elles, pour transformer le signal qui les traverse, ou pour actionner d'autres composants, et réaliser d'autres fonctions. On parle alors de programmation logique, application dérivée et élaborée de l'algèbre de Boole, de Georges Boole, fondement de l'informatique moderne(ref ou exemple)
+De manière plus générale, des fonctions informatiques représentées sous forme de blocs et agenceable entre eux se nomme la programmation visuelle. Il peut même être qualifié de programmation tangible si la programmation utilise des objets physique agencés entre eux(ref donner l'exemple de blocky scratch pad, UML, et les jouets de google, et le but/contexte de chacun).
 
-L'utilisation et l'agencement de forme pourrait être une solution envisageable en lieu et place de l'écriture de code.
-Des choses existe déjà. La programmation visuelle utilise des blocs agencés entre eux. La programmation tangible utilise des objets physique agencés entre eux pour la construction d'algorithmes. L'UML permet la visualisation de la conception d'un système.
-
-Pour quoi ces méthodologie ne sont pas utilisée de manière régulière ? Car elle se retrouve moins performante face à l'écriture de code. Il serait interressant de mieux comprendre pourquoi cela a échoué.
+`Pourquoi ces pratiques de programmation ne sont-elles pas plus utilisées`
+Ces pratiques de programmation restent marginales quand à la rédaction de code. La raison est qu'il est plus rapide d'écriture du code que de chercher le bon bloc, et l'arranger avec les autres. (ref preuve ?) Surtout quand l'écriture peut atteinds 60 mots par minutes.
+La programmation visuelle ne se détache pas assez de la programmation écrite pour sans démarquer. L'utilisation de système plus abstrait tels que la programmation logique pourrait peut-être faire la différence.
 
 7. Modélisation
 
