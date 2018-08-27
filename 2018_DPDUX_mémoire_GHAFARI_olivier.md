@@ -6,10 +6,10 @@
 
 Je suis UX/UI designer, précédement développeur web. 
 
-Je suis responsable de créer des wireframe / prototypes pour répondre à un besoin, qui est souvent Web. Je suis chargé de vérifier leur usabilité. Si la solution satisfait le client, je dois alors créer des maquettes de ces prototypes.<br>
-Précédement, j'étais responsable de la programmation de sites internet en accord avec les maquettes qu'avaient produit les Designer. 
+Je suis responsable de créer des wireframe / prototypes pour répondre à un besoin, qui est souvent en lien avec le Web. Je suis chargé de vérifier leur utilité et usabilité. Si une des solutions proposée satisfait le client, je créer alors des maquettes haute fidélité de ces prototypes. Des maque<br>
+Précédement, j'étais développeur JavaScipt. J'avais pour responsabilité de développer des sites internet en accord avec les maquettes qu'avaient produit les Designers. J'étais aussi responsable de programmer la logique et les interactions entre la partie Front et les autres couches logiciel.
 
-J'ai une expertise technique concernant les système d'information, mais aussi en tant qu'ergonome, et en mangement agile.
+Mon expertise technique concerne surtout les systèmes d'information, mais aussi en tant qu'ergonome, et en management agile car je suis aussi Scrum Master.
 
 2. Mon portfolio : projets passés, présents
 
@@ -64,27 +64,28 @@ Du plus récent au plus ancien :<br>
 
 4. Ma problématique préférée
 
-La réalité virtuelle & la réalité augmenté comme outil de programmation informatique.
+Les interfaces de programmations en Réalité Virtuelle et Réalité Augmentée
 
 _Qui_ ? Les développeurs
-<br>_Quoi_ ? La développement logiciel, web.
-<br>_Où_ ? Dans la VR/AR, au bureau
-<br>_Quand_ ? Dans un futur proche
+<br>_Quoi_ ? La développement de jeux, web & logiciel.
+<br>_Où_ ? Dans la VR/AR, au bureau.
+<br>_Quand_ ? Dans un futur proche.
 <br>_Comment_ ? A l'aide de nouvelles interfaces, visuelles, 3D…
-<br>_Pourquos_ ? Inadapté à l'usage de l'IT aujourd'hui, possède de nombreux avantages
+<br>_Pourquoi_ ? Les outiles utilisés sont inadaptés aux développement VR. Pourtant, le materiel VR possède de nombreux avantages pour la productivité et le confort.
 <br>_Combien_ ? Gratuit.
 
 5. Mes hypothèses, réponses possibles, comment les vérifier.
 
-Le travail en informatique aujourd'hui n'est pas adaptée à la VR. Les devices ont évolués en suivant une évolution de l'homme : l'écriture. Invention très présente dans nos modes de travail. Écran plats, pas de volumes, 2D, haute résolution. 
+Les outils utilisés aujourd'hui ne sont pas adaptés au développement d'expèrience en réalité virtuelle. La combinaison écran et clavier ne suffisent plus au développement d'expèrience virtuelle dans un espace en trois dimension. L'invention de ces outils ont été fait pour des usages plats : l'écriture, l'affichage d'images etc… 
+Pour un usage différent, les outils se doivent d'être différent.
 
-La VR ne serait pas adaptée à l'écriture et à la rédaction de texte. Vue complétement ou partiellement cachée, lentilles et champs de vision restreinte.
+Selon Mike Alger, la VR ne serait pas adaptée à l'écriture et à la lecture de texte. Hors les progrès technologique ont permis une meilleure résolution des écrans et la lecture de textes en VR est devenu désormait possible et tout à fait accessible. Cependant, il vrai que la rédaction de texte est aujourd'hui difficile en réalité virtuelle. Lors de l'utilisation de casque VR, la vue est coupée de l'environnement extèrieur. Il est donc difficile, presque impossible, d'utiliser un clavier si l'on ne pratique pas la dactylographie (définition).
 
-Ajout d'une troisième dimension a une importante valeur ajoutée  dans la construction et la visualisation de système complexes. (ref cosmonautes visualisation du terrain de mars). Hors les programmes informatiques sont des systèmes complexes.
+User de la réalité virtuelles n'a pas que des inconvénients. Bien au contraire. L'ajout d'une troisième dimension et l'immersion de l'utilisateur dans cet espace a de nombreux avantages.
+Elle permet une meilleure visualisation et construction de systèmes complexes (ref cosmonautes visualisation du terrain de mars). Les jeux et programmes informatiques entrent dans la classe des systèmes complexes.
+Elle permet une spatialisation de l'espace de travail. Cette spacialisation permet une répartition des taches sur un plus grand espace de travail qu'un écran de 15 pouces. Selon le design de Mike Alger, l'espace de travail «utile» — c'est à dire l'espace utilisable sans contraintes de vue et de mouvement — en réalité virtuelle permettrait d'utiliser une surface équivalente à 8 écrans 27 pouces (ref). Hors il a été prouvé que la multiplication des écrans permettait un gain de productivité jusqu'à 40%. 
 
-Une spatialisation de l'espace de travail permet un gain de productivité. Mais celui-ci peut devenir contraignant : mouvements champs de vision etc...
-
-Si nous voulons utiliser la VR comme outil de programmation informatique, et non plus comme appareils d'experience visuelle, nous devons repenser notre manière de développer. Peut-être en utilisant des interfaces visuelles, peut-être des blocs, ou de la 3D ?
+Si nous voulons créer des expèriences en réalité virtuelle de manière efficace et de meilleure qualité, nous ne devons plus utiliser les appareils VR comme simple medium de visualisation. Nous devons les utiliser comme des outils à part entière, pour qu'ils soient partie intégrante de la phase de développement. Ceci signifie qu'il faut repenser l'utilisation des outils actuels : écrans, clavier, souris, casque VR, contrôleur VR… Cette analyse fonctionnelle et cette reflexion ergonomique doit se faire autant d'un poin de vue physique, que logiciel. 
 
 6. Réflexions :
 
