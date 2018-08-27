@@ -102,11 +102,11 @@ De manière plus générale, des fonctions informatiques représentées sous for
 
 `Pourquoi ces pratiques de programmation ne sont-elles pas plus utilisées`
 Ces pratiques de programmation restent marginales quand à la rédaction de code. La raison est qu'il est plus rapide d'écriture du code que de chercher le bon bloc, et l'arranger avec les autres. (ref preuve ?) Surtout quand l'écriture peut atteinds 60 mots par minutes.
-La programmation visuelle ne se détache pas assez de la programmation écrite pour sans démarquer. L'utilisation de système plus abstrait tels que la programmation logique pourrait peut-être faire la différence.
+La programmation visuelle ne se détache pas assez de la programmation écrite pour s'en démarquer. L'utilisation de système plus abstrait tels que la programmation logique pourrait peut-être faire la différence. La programmation comme en electronique, en assemblant des portes logique et autre composants fonctionnels, serait une bonne candidate.
 
 7. Modélisation
 
-La manipulation d'objet est aisée en VR. Pourrions-nous utiliser l'agencement d'objet 3D pour développer ? Il faudrait alors modeliser chaque élément de synthaxe sous une forme particulière. Commençons par lister les principaux éléments de synthaxe de la programmation informatique :
+La manipulation d'objet en réalité virtuelle est aisée. L'agencement d'objet 3D pourrait-il être utile pour développer ? Pour utiliser une telle forme de programmation, il faudrait modeliser chaque éléments de synthaxe sous une forme particulière. Ci-dessous un liste des éléments de synthaxe de la programmation informatique. Celle-ci est non-exaustive, mais elle représente la majorité des éléments de syntaxe que  l'on retrouve dans les languages informatique les plus courant:
 
 | Variables |  Opérateurs   | Conditions  | Boucles  | Fonctions |
 |:---------:|:-------------:|:-----------:|:--------:|:---------:|
@@ -118,34 +118,33 @@ La manipulation d'objet est aisée en VR. Pourrions-nous utiliser l'agencement d
 |           | chaînes       |
 |           | ternaire      |
 
-Pour tenter le design d'une interface, j'ai voulu utiliser un code simple en javascript qui effectue une action basique.
-En commençant la modélisation, une idée m'est apparu. La manière de programmer est très intimement lié au language utilisé. Nous appelons ça un paradigme de programmation.
+Au vu du faible nombre de composants, leur modélisation sous formes d'objets 3D parait faisable.
+La méthode de programmation est très intimement lié au language utilisé. Nous appelons ça : un paradigme de programmation.
 
 8. Paradigme de programmation
-Le paradigme de programmation détermine la vue qu'a le développeur de l'execution de son programme. Aucune manière de programmer en VR n'a été créer jusqu'ici. Utiliser un code javascript et essayer de construire une nouvelle interface de programmation en VR serait une erreur. En effet rien assure que le paradigme de programmation utilisé dans le code est le bon pour la programmation en VR/AR. Le bon paradigme existe-t-il déjà ? Quel paradigme pourrait être inspirant pour notre utilisation ? Un nouveau paradigme de programmation doit-il être créer ?
+Le paradigme de programmation détermine la vue qu'a le développeur de l'execution de son programme. Le paradigme de programmation change bien souvent d'un language de programmation à un autre. Utiliser un paradigme de programmation d'un language pour une nouvelle approche de dévelloper en réalité virtuelle serait érroné. En effet rien assure que le paradigme de programmation utilisé dans le code est le bon pour une programmation visuelle. Le bon paradigme existe-t-il déjà ? Quel paradigme pourrait être inspirant pour une utilisation en VR ? Un nouveau paradigme de programmation doit-il être créer ?
 
-Une recherche s'impose parmis la multitude de paradigme déjà existant. Il existe trois grande famille de paradigme de programmation :
+Une multitude de paradigmes existent déjà. Ceux-ci sont classés en trois grande famille :
   * Types de programmation impérative (et dérivés)
   * Types de programmation orientée objet (et dérivés)
   * Types de programmation déclarative (et dérivés)
   * Inclassables tels que : évènementielle, orienté flux, par contrat …
 
-La programmation orienté objet s'inscrit particulièrement bien pour la VR. La VR est un endroit où l'on visualise des objets 3D. 
+La programmation orienté objet s'inscrit particulièrement bien pour l'utilisation de blocs. La VR permet la visualisation et la manipulation d'objets 3D. 
 
-La prgrammation fonctionnelle, quand à elle, est interressante car elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
+La programmation fonctionnelle, quand à elle, est interressante. Elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
 
-9. Convergence du design et du développement.
-Le web a toujours rapproché le design du développement. En effet, le visuel a une place forte pour la navigation sur internet. Là où le développement back le laisse totalement tomber. Le développement backend n'as pas besoin de backend. Celui-ci est purement fonctionnel. 
-La VR laissant une place très importante au visuel, la programmation dans celle-ci se rapproche plus du développement front-end que du développement back-end.
+9. Divergence de la programmation VR et de la programmation logiciel.
+La programmation VR est assez particulière. En effet la plupart de fonctions permettent la manipulation d'objets : position, rotation, déplacement, échelle, instantiation, destruction… En ce sens elle est assez différente du dévellopement logiciel. Le développement logiciel est principalement utilisé pour recevoir, traiter, présenter des données. De même que le développement web est principalement utilisé pour présenter du contenu.
 
-Le développement Front-end dissocie le design du code. Insérer de la logique dans du design devient rapidement compliqué de part la différence de types des deux informations, et de la limitation de l'espace de travail. 
-La VR amène une contrainte et un avantage : La contrainte d'utiliser le moins possible l'écriture et l'avantage d'avoir un espace de travail relativement infini.
+Pour rappel, la réalité virtuelle possède la contrainte et l'avantage suivant : ne pas pouvoir utiliser l'écriture et l'avantage d'avoir un espace de travail relativement infini.
 
-La programmation dans la VR pourrait être une programmation orienté objets avec des objets 3D, au sein même de la scene 3D.
-Ainsi, la programmation directe des objets permet de s'abstenir de creer et nommer les variables. On peut lier directement les objets à leur fonctionnements, propriétés et méthodes. 
+La une nouvelle méthode de programmation pour la réalité virtuelle utiliserait un paradigme de programmation orienté objets utilisant l'interactions entre objets 3D, au sein même de la scene 3D.
+Ainsi, la programmation directe des objets permettrait de s'abstenir de creer et nommer les variables. Les propriétés des objets seraient visibles et disponible en lecture et en écriture dans l'objet pour connecter directement les blocs fonctionnels. Cette méthode de programmation se rapproche de la programmation d'automate (ref cx-programmer).
 
 10. Premier retour des tests 
-Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » Je ne pense pas avoir trouvé la solution pour remplacer le code, celui-ci étant très explicite et clair dès qu'on le voit. 
+Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » «Qu'est-ce que ça donne quand il y a un milier d'instruction ? 
+Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit décrit clairement son rôle, même à la vue d'un neophite.
 
 11. La programmation logique, ce qui est existant
 LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Le système permet d'effectuer la majorité des opérations courantes. Malheuresement la programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. 
