@@ -147,13 +147,29 @@ Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cel
 Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit décrit clairement son rôle, même à la vue d'un neophite.
 
 11. La programmation logique, ce qui est existant
-LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Le système permet d'effectuer la majorité des opérations courantes. Malheuresement la programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. 
+LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Il suffit d'arranger des blocs fonctionnels entre eux. Le système permet d'effectuer la majorité des opérations courantes. Il est aussi possible de collaborer en directe. La programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. Logix s'approche-t-elle encore trop de la programmation écrite ?
 
-12. Fausse route
-Il y a évidemment un problème d'ergonomie entre l'écriture de code et la VR et AR. 
-Je penses faire fausse route. Reprenons depuis le début.
+12. Méthode encore immature
+Cette nouvelle méthode de programmation mérite d'être recherchée et affinée. Un fois mature, les développeurs devront sortir de leur zone de confort afin de changer leur manière de programmer.
+
+Essayons à présent d'améliorer l'existant à l'aide d'une analyse fonctionnelle.
+
+## Analyse fonctionnelle
+
+L'analyse fonctionnelle (en conception, ne pas confondre avec l'analyse fonctionnelle en mathématique) a pour objectif de rechercher et caractériser les fonctionnalités offertes par un produit afin de satisfaire les besoins d'un utilisateur.
+Je vais donc formaliser et valider le besoin des utilisateurs de logiciels de création d'expèrience VR. Puis je rechercherais et caractériserais les fonctions dans le but d'améliorer les produits existants.
+
+L'analyse fonctionnelle concerne un système. Un système est un ensemble d'éléments interagissant selon un principe.
+Les caracteristique de celui-ci sont : 
+  - Des utilisateurs et des usagers
+  - des frontières et un environnement définies — je vais donc devoir définir ces frontières et cet environnement —
+  - Il réalise une mission
+  - Enfin il se maintient dans un environnement changeant.
 
 13. Comprendre ses utilisateurs
+
+`La première chose que l'on peut se poser lorsque l'on a un produit c'est : à qui sert-il ? Il faut donc définir les utilisateurs de ce produit ainsi que ses usagers. L'usager sera toute personne en relation avec ce produit, tandis que l'utilisateur sera la personne pour qui le produit aura été créer.`
+
 La première chose est de comprendre qui sont les utilisateurs du code pour la VR/AR.
 Les utilisateurs de code dans la VR / AR sont les développeurs de VR / AR.
 Quels sont leur pain points ? 
@@ -179,6 +195,9 @@ Les casques d'AR utilisant principalement des lentilles transparente, le clavier
 Je me suis donc concentré sur les casques VR qui offrent le plus de défis ergonomiques.
 
 17. Espace de travail.
+
+`Quel est l'environnement du produit ? La méthode pour le trouvé est assez simple; il suffit de se mettre à la place du produit et d'observer ce qu'il y a autour.Nous parlerons ici **d'interacteurs** du système pour nommer tous ces éléments de l'environnement.`
+
 Dans un premier temps, déterminons l'environnement de travail typique d'un développeur. Un bureau de 1 mètre sur 1.5 mètre à une hauteur de 80 centimètres, sur lequel repose l'ordinateur et le clavier. Ce bureau se trouve à l'avant d'un espace libre d'environ 2 mètres sur 2 mètres dans lequel le développeur peut se déplacer librement.
 
 Le développeur doit pouvoir écrire sont code et tester aisément. Pour cela il doit pouvoir voir son clavier. De manière clair ou à minima l'emplacement du clavier et l'emplacement des touches. Il doit être en capacité de pouvoir retrouver son clavier un fois le test lancé. Il doit être aussi en mesure de retrouver sa chaise dans le cas où il doit se lever pour tester l'application.
@@ -207,6 +226,9 @@ Le design de ces outils est assez similaire :
   - Ces outils ne fonctionnent pas pour des outils grand public comme énnoncés plus haut.
 
 20. Design d'Interface de programmation VR
+
+`La question qui se pose ensuite est : à quoi sert le produit ? Il sert à une fonction principale mais aussi à beaucoup de fonctions secondaires. Nous devrons donc identifier et formuler toutes ces fonctions auquelles va répondre le produit.`
+
 Difficile de designer une interface de programmation VR pour chaque logiciels grand public présents et futurs. Néanmoins, des règles de bonnes pratique peuvent être définies. Des règles qui peuvent s'appliquer de manière générique, qui facilite la vie des développeurs. 
   - L'utilisateur doit pouvoir se déplacer librement dans la scène, sans même avoir à bouger. Il peut en quelque sorte manipuler la scène : réduire la scène pour avoir une vision plus globale, ou déplacer la scène dans un sens ou dans un autre pour avoir la vision ciblée sur un élément particulier.
   - L'utilisateur doit pouvoir sélectionner un élément pour en observer ou modifier ses propriétés de manière manuelle. Il peut modifier sa taille, sa position, rotation, texture etc… Lors de la sélection, un afficheur tête haute (HUD) apparaitrait non loin de l'objet afin d'en visionner / manipuler les propriétés.
@@ -215,63 +237,11 @@ Difficile de designer une interface de programmation VR pour chaque logiciels gr
   - L'utilisateur peut lancer ou arrêter, ou mettre en pause la simulation. 
   - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
 
-` Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
+` Les outils actuels ont été conceptualisés pour un besoin à un instant donné : création de contenu observable sur un écran plat. Hors Le besoin peut évoluer au cours du temps et les technologies aussi. Des innovations peuvent apparaître et l'utilisation peut changer (exemple fort boyard). C'est pour cela que la conception de Jeux VR au travers de Unity par exemple n'est plus adaptée. Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
 
 21. Tester son design
 À ce point là, je me pose la question de comment puis-je tester mon design. En effet, une fois la solution designé, le produit doit être modifié, ou des fonctionnalités sont à coder. La question se pose donc : Comment tester que mon design est le bon avant même de se lancer dans une phase de développement très longue ?
 De même, le choix du logiciel et son étude de fonctionnement est un temps supplémentaire non négligeable à allouer.
 J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
 
-22. Qu'est-ce que le design fonctionnel ?
-En conception, le design fonctionnel est la resultante de l'analyse fonctionnel (dans le milieu de la conception, à ne pas confondre avec l'analyse fonctionnelle en mathématique).
-L'analyse fonctionnel est une démarche qui consiste à rechercher et caractériser les fonctionnalités offertes par un produit afin de satisfaire les besoins d'un utilisateur.
-
 https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence centrale lille.
-
-L'objectif de l'analyse fonctionnelle que je vais mener sera donc de formaliser et valider un besoin, puis de rechercher et caractériser les fonctions dans le but d'améliorer un produit ou un service.
-
-## Approche intuitive
-
-L'analyse fonctionnelle s'applique à tout ou une partie d'un ensemble d'un produit existant ou nouveau. Un produit peut-être soit materiel tel un objet physique, ou immateriel comme un processus, un service, une application.
-
-Mais avant tout, l'analyse fonctionnelle concerne un système. Un système est un ensemble d'éléments interagissant selon un principe.
-Les caracteristique de celui-ci sont : 
-  - des frontières et un environnement définies — je vais donc devoir définir ces frontières et cet environnement —
-  - Il réalise une mission
-  - Enfin il se maintient dans un environnement changeant.
-
-La première chose que l'on peut se poser lorsque l'on a un produit c'est : à qui sert-il ?
-Il faut donc définir les utilisateurs de ce produit ainsi que ses usagers.
-L'usager sera toute personne en relation avec ce produit, tandis que l'utilisateur sera la personne pour qui le produit aura été créer.
-
-Quel est l'environnement du produit ? La méthode pour le trouvé est assez simple; il suffit de se mettre à la place du produit et d'observer ce qu'il y a autour.
-Nous parlerons ici **d'interacteurs** du système pour nommer tous ces éléments de l'environnement.
-
-La question qui se pose ensuite est : à quoi sert le produit ? Il sert à une fonction principale mais aussi à beaucoup de fonctions secondaires. Nous devrons donc identifier et formuler toutes ces fonctions auquelles va répondre le produit.
-
-Enfin quelles sont les contraintes que doivent satisfaire le produit ? (Environement modulable, ne pas être trop consommateur de mémoire, ne pas porter atteinte au fichiers systèmes…) Je vais donc identifier et formuler toutes ces contraintes.
-
-Lorsque l'on fait une démarche d'analyse fonctionnelle, on doit prendre en compte le produit dans l'intégralité de son cycle de vie : 
-  - Étude (Besoin & marché, Fonctions de service, conception développement, définition)
-  - Réalisation (Industrialisation, fabrication, contrôle, conditionnement)
-  - Distribution (Vente, Transport stockage, Insallation, Mise en service )
-  - Utilisation (1ère exploitation, Maintenance & réparation, Arrêt de fonctionnement)
-  - Fin de vie (Démontage et tri, Recyclage, Stockage, Destruction)
-
-## Le besoin et la bête à corne
-
-Le besoin est le désir éprouvé par un utilisateur (norme NF X50-150)
-Un besoin peut être Exprimé ou implicite, Avoué ou non, Latent.
-Le besoin peut évoluer au cours du temps, selon les innovations concurrents. (exemple fort boyard)
-Il faut donc valider la pérénité du besoin.
-
-Un produit: c’est ce qui est fourni à un utilisateur pour répondre à un besoin (norme NF X50-150)
-Pour faire un bon produit, il faut avoir identifié le vrai besoin
-
-Pour la re/conception d'un produit, on suit une logique de résolution de problème : 
-  - Besoin : Quel est le problème à résoudre ?
-  - Fonctions : Quelles sont les fonctions que le produit doit satisfaire ?
-  - Produit : Quelle est la réponse concrète au besoin du départ ?
-
-L'analyse fonctionnelle externe porte sur les deux premières parties. Tandis que l'analyse fonctionnelle interne concerne un produit déjà existant.
-
