@@ -245,3 +245,131 @@ De même, le choix du logiciel et son étude de fonctionnement est un temps supp
 J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
 
 https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence centrale lille.
+
+21. Conception centrée utilisateur
+Afin de conceptualiser la meilleur solution possible, je vais utiliser la méthodologie de conception centré utilisateur décrite par IDEO. 
+Une conception centrée sur l'humain c'est comprendre que la personne concernée par la problématique est la première personne à pouvoir nous aider. Elle informera précisément et révélera les problématiques les plus pertinentes.
+Ce sont eux qui sont la clé de la solution.
+Le processus se décrit en trois grande phases : 
+  - Inspiration : ici, l'utilisateur est observé, étudié, questionné. Le but est d'accumuler un maximum d'information afin de comprende la problématique de manière optimale.
+  - Idéation : cette phase permet l'emulsion d'idée. Elle est très fertile et créative. Toute les solutions sont imaginées sans limites, discutées, débatues, prototypées,testées, acceptée ou réfutées…
+  - Inplémentation : enfin, on imagine comment intégrer notre solution dans son contexte initial.
+
+Cette méthodologie permet d'avoir un inpact réel. Cela se traduit par la production d'une solution désirable, faisable technologiquement, et viable financièrement.
+
+22. Les outils
+Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans son guide pratique. Chaque projet est unique. Ainsi certains sont plus pertinents que d'autres suivant le contexte. Les outils choisis pour cette étude sont les suivants :
+  - Définition du cadre du défi conceptuel
+  - Créer un plan de projet
+  
+  - Entretiens
+  - Définition du public
+  - Tri de cartes
+  - Immersion
+
+  - Les cinq meilleurs idées
+  - degager les thèmes
+  - Formulation de révélations
+  - Comment ferions nous pour
+  - Créer des représentations visuelles
+  - brainstorming
+  - Regroupements d'idées
+  - Dégager un concept
+  - Vérifier l'intuition
+  - Choisir les idées à prototyper
+  - Story board
+  - Prototypage rapide
+
+23. Définission du cadre du problème
+Quel est le problème que vous essayez de résoudre ?
+Le problème que j'essaie de résoudre concerne la réalité virtuelle. Notamment l'utilisation contraignante du casque de réalité virtuelle lors de la phase de développement de jeux vidéo ou d'expèrience VR.
+
+  1. Exprimez-le sous la forme d’une question.
+    Comment optimiser le développement de jeux vidéos, et expèrience VR. Notamment en supprimant les gestes répétitif et contraignant de vetir, dévétir un casque de réalité virtuelle.
+
+  2. Maintenant, énoncez l’impact optimal que vous espérez produire.
+    Je voudrais que tous les développeur de jeux vidéo ne sentent plus cette contrainte d'écran-clavier-souris / test expèrience en VR.
+  
+  3. Quelles sont les solutions possibles à votre problème ? Pensez large. C’est bien d’aborder un projet avec une ou deux idées sur la solution, mais assurez-vous qu’elles soient suffisamment ouvertes pour permettre des résultats surprenants.
+    Repenser l'utilisation du casque, du clavier, de la souris. Repenser la manière de programmer pour qu'elle soit plus adaptée.
+  4. Enfin, notez le contexte et les contraintes auxquels vous êtes confronté. Il peut s’agir de contraintes géographiques, technologiques, chronologiques ou concernant la population que vous essayez d’atteindre.
+    Les contraintes existantes sont, de par la naissance de la technologie, le peu de personnes développant des expèriences VR. 
+  5. Votre question initiale a-t-elle besoin d’être affinée ? Recommencez
+
+24. Les entretiens
+Les entretiens se trouvent au cœur de la phase d'Inpiration de la conception centrée utilisateur. En effet, ils permettent de cerner et comprendre les besoins des utilisateurs ainsi que leur aspirations.
+En annexe, le guide d'entretien.
+
+### Questions générales
+Quel age as-tu ? 
+Ou vis-tu ? 
+Dans quelle branche de métier travail tu ? 
+Quel poste occupes-tu ? 
+Quel fais-tu au quotidien ?
+
+### Questions plus précises à la VR
+Dans quel cadre utilises-tu la VR ?
+Que fais-tu avec la VR ?
+Dans quel but ? 
+À quoi ressemble ton espace de travail ?
+Quels outils materiel et logiciels utilises-tu ?
+Peux-tu me décrire ton processus de travail ? Quelles sont les tâches que tu effectue le plus souvent ?
+
+Qu'elles sont les choses que tu aimes le plus dans ton processus de création ?
+Qu'elles sont les choses que tu aimes le moins dans ton processus de création ?
+
+Es-tu satisfait de tes conditions de travail ? Détails ?
+Quels sont les qualité et les faiblesses des outils que tu utilise ? 
+Quelles problématiques rencontres-tu dans ton processus de création ?
+Y-a-il des choses qui te rendent plus productives ? lesquelles ? 
+Y-a-il des choses qui te rendent moins productives ? Si oui lesquelles ?
+Penses-tu qu'il est possible d'améliorer tes conditions de travail ? Si oui, comment ?
+---
+Samy
+23 ans
+Ile de france
+Je travaille dans l'informatique, le développement web
+Je suis développeur web
+Au quotidien je développe des sites internets
+
+Occasionnelement les client me demandent créer des pages web qui intègre de la réalité virtuelle.
+J'intègre des maquettes dans un scènes 3D, et j'y ajoute de la logique, des interactions. 
+Cela permet soit de montrer l'expertise du client dans le domaine de l'IT en générale, de sa pluridisciplinarité, soit pour créer une expèrience originale pour le visiteur du site.
+Je travaille dans un openspace, avec d'autres développeur. J'ai un espace de travail plutot spacieux
+J'ai un Mac et un casque VR, je développe avec Visual Studio Code. J'utilise principalement Vue et A-frame pour la VR.
+Je travaille en étroite collaboration avec les designer. Ils me fournisse des maquettes, des illustrations, des assets 3D, et beaucoup d'explication sur ce qu'ils veulent faire. Ensuite je développe afin d'intégrer les éléments dans la scène en 3D. Je passes aussi beaucoup de temps sur l'inspector d'A-frame à placer les éléments et à visualiser le rendu.
+J'aime construire des choses qui sont visuellement belles, même si je ne voit pas tout de suite où les designer veulent en venir. Mais je leur fait confiance et en général ça rends super. 
+
+Quand ça bug ahaha, plus sérieusement, placer les éléments étapes par étapes est assez long. De plus, A-frame n'est pas aussi que d'autre logiciels tels que Unity par exemple. Manipuler la scène 3D et ses éléments n'est pas facile et assez long. Pareil pour tester.
+Oui je suis satisfait de mes conditions de travail.
+
+Comme je le disais, A-frame n'est qu'à ses débuts et il lui manque beaucoup de fonctionnalités. Et pourtant c'est le meilleur que l'on trouve en ce moment pour le développement VR dans le Web. Le déplacement dans la scène n'est pas possible, ni la rotation. Du coups je suis obliger de bouger ou incliner les objets afin d'atteindre des endroit inaccessible. Passer de l'IDE à la visualisation est aussi quelque-chose de répétitif. C'est comme si je peignait dans une pièce et que je devait me rendre dans une autre pièce de la maison pour voir ce que ça donne.
+Si je peux avoir un écran supplémentaire, ça me permet de visualiser la scène sur un écran, et développer sur l'autre.
+Devoir mettre mon téléphone dans le casque VR pour voir ce que ça donne et que finalement ça ne donne pas du tout le rendu espéré, c'est assez fatiguant. Car je dois faire des allez-retour entre écran et casque jusqu'à ce que ce soit bon.
+Je ne sais pas trop… Je penses qu'avoir plus de fonctionnalités dans A-frame, ou un meilleur casque, ou une synchronisation plus rapide entre outils de développement et visionneuse…
+---
+Nicolas
+21 ans
+Paris
+Je travaille dans le développement web
+Je suis développeur JavaScript
+Je développe des site web et je fais du consulting. J'accompagne mes clients dans la recherche de solution à leur besoins.
+
+Je suis développeur de jeux vidéos amateur, je fais ça chez moi pendant mon temps libre le soir. En ce moment j'essaie la VR.
+Je fais ça pour mon plaisir personnel, mais aussi pour partager à mes potes ou sur des plateformes comme itch.io .
+Je travaille dans ma chambre, j'ai un bureau, un ordinateur. Elle est assez spatieuse pour contenir mon HTC Vive.
+En plus de mon ordinateur et de mon htc vive, j'utilise Unity, et depuis peu blender pour retoucher certains modèles 3D.
+En général j'ai une idée de jeu que je veux faire. J'imagine le contexte, je vais chercher les assets sur le store unity, puis je commence à créer la scène dans Unity et à placer les assets. Une fois que la scène commence à ressembler à quelque chose, je commence à développer la mécanique et l'IA sur MonoDevelop. Ah oui j'utilise monodevelop aussi, c'est un outil pour développer qui vient avec Unity et qui s'intègre avec les fonctions de celui-ci.
+Ce que je fais le plus souvent c'est placer les objets dans la scène, développer et tester le jeu.
+
+Ce qui me passionne c'est donner vie à mes idées. Et voir le tout fonctionner.
+Ce qui me plait le moins c'est de chercher des assets pendant des heures et ne pas trouver quelquechose qui correspond à mes attentes. C'est d'ailleurs pour ça que je me suis mis à Blender. J'adore développer, mais construire la scène est très long si je veux placer les éléments comme je veux. Concernant la VR, devoir mettre son casque, enlever son casque, mettre son casque etc, c'est carrément super c****t. Pareil pour les controleur : se lever de son bureau, prendre les contrôleurs, mettre son casque, essayer, voir que ça ne marche pas, se baisser pour poser ses contrôleurs sur le sol, enlever son casque, retourner s'asseoir pour corriger les problèmes, et recommencer. C'est très fatiguant !
+
+Oui je suis satisfait de mes conditions de travail en général, j'ai d'excellents outils mais c'est vrai qu'il y a quelque chose qui cloche pour la VR. 
+Unity est vraiment très puissant, voir un peu trop parfois. Mais le développement VR est pas du tout adapté avec l'écran et le clavier.
+La séparation code / scène a ses qualitées, comme ses défaut. Cela permet de ne pas tout avoir au même endroit, même si passer de l'un à l'autre pour tester est fatiguant, et encore plus pour la VR.
+
+Un bon café ou une boisson energisante pour ne pas citer de marques me rendent plus productif. J'aime travailler en musique aussi. J'ai trouvé une technique aussi récemment pour aller plus vite pour mon Jeu VR : Je garde le casque sur la tête et je pose mes contrôleurs sur le bureau. C'est vite le bazar et ça me fais un peu mal à la tête mais quand ça ne marche pas, ça me permet de ne pas faire mille aller/retour.
+
+Mis à part la technique que j'utilise, non je ne vois rien d'autre…
+---
