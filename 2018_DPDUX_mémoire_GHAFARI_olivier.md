@@ -349,7 +349,7 @@ Devoir mettre mon téléphone dans le casque VR pour voir ce que ça donne et qu
 Je ne sais pas trop… Je penses qu'avoir plus de fonctionnalités dans A-frame, ou un meilleur casque, ou une synchronisation plus rapide entre outils de développement et visionneuse…
 ---
 Nicolas
-21 ans
+24 ans
 Paris
 Je travaille dans le développement web
 Je suis développeur JavaScript
@@ -373,3 +373,24 @@ Un bon café ou une boisson energisante pour ne pas citer de marques me rendent 
 
 Mis à part la technique que j'utilise, non je ne vois rien d'autre…
 ---
+Christophe
+26 ans
+Paris
+En IT, Développement mobile
+Développeur Javascript applications React Natives
+Je créer des applications mobile dans une petite équipe, souvent pour faire des POC (proof of concept) pour des clients de toutes tailles souhaitant tester la viabilité de leur produit.
+
+Je développe des jeux vidéos en VR chez moi, pour m'amuser.
+Pour mon épanouissement personnel.
+Je travaille dans mon salon / chambre, je vis en collocation.
+J'utilise mon PC fixe avec Unity. J'ai trois écrans, un HTC Vive dont les bornes sont dans les coins de la pièces, mais je les ranges quand il y a du monde.
+Je trouves des projets Unity sur le store que je télécharge et que je modifie pour une utilisation VR.
+
+J'aime regarder comment les développeurs s'y sont pris. Ensuite et je m'approprie le projet pour le transformer comme moi j'aimerais qu'il soit. Ça me permet de zapper toute une partie de création et d'aller à l'essentiel. 
+Devoir lire du code mal écrit, c'est parfois incompréhensible.
+Oui, mis à part quand je doit déplacer la table basse et mon canapé lit pour avoir de la place et tester sans crainte de me cogner.
+Unity est bien même si les déplacement dans la scène ce n'est pas la panacée. Il faut constamment bouger la caméra et son type (orthogonale ou naturel), pour être sûr que les objets soient à la bonne place. 
+Je me retrouve souvent à ne pas avoir le rendu que je veux en réalité virtuelle. Du coups je me retrouve à vêtir et dévétir le casque et les contrôleur. Je ne m'embête plus maintenant, je le laisse sur la tête. Ça me fait transpirer et j'ai une coupe pas possible mais bon…
+Je suis plus productif quand il y a personne chez moi. Personne pour me déranger, et moi je ne dérange personne quand je joue au salon en VR ou quand je développe.
+Du code que je ne comprends pas. 
+Avoir ma propre pièce pour jouer / développer.
