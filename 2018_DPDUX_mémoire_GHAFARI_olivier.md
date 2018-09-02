@@ -448,4 +448,26 @@ Rendre le développement en réalité virtuelle plus intuitif, facile à utilise
   - Les fonctions sont peu parlantes et peu représentative parfois (axe x, y, z)
   - Faire des va et viens entre l'IDE (MonoDevelop, Visual Studio Code) et l'inspecteur (Unity, A-Frame Inspector)
 
-28. Atelier *Comment ferions-nous pour* et brainstorming
+28. Atelier *Comment ferions-nous pour*
+  - Le casque se trouve au dessus de leur tête et pivote
+  - Abaissement du casque automatique
+  - Le développement se fait directement dans la VR
+  - Développer autrement qu'avec un clavier
+  - Souris 3D
+  - Hologramme de la scène
+  - On peut regarder et manipuler la scène depuis la VR directement
+  - Intégrer l'IDE à l'inspecteur.
+
+29. Reflexion sur les idées
+  - Le casque se trouverais à proximité de la tête, et se placerais automatiquement devant les yeux lors du lancement du test : contrainte matériel. Cela nécéssite une insatallation supplémentaire, ainsi qu'une automatisation.
+  - Le développement s'effectue à l'aide d'un clavier. Développer directement dans la VR permettrais de ne plus avoir ce passage code -> test mais de pouvoir visionner directement le rendu en temps réel. La contrainte ici est l'utilisation d'un clavier. Elle est difficile car les casques sont souvent opaque. Heuresement, certains d'entres eux sont équipé de caméra à l'avant. Un solution serait de pouvoir voir le clavier à l'aide de cette caméra en portant casque.
+  - Développer avec les contrôleur par exemple, placer, assembler des blocs. Peut-être existe-t-il d'autres méthodes de programmation sans clavier.
+  - Une souris adaptée, à une 3ème dimension ? Les contrôleurs sont déjà suivis dans les trois dimensions de l'espace, il suffit de les utiliser. Un solution plus ergonomique encore serait la disparition des contrôleurs et l'utilisation des mains comme contrôleurs comme le fait leapmotion. Ainsi, le mouvement d'attraper le contrôleur pour essayer sera aboli. Le développeur lèverais les mains de son clavier pour editer ou tester le jeu. puis il lui suffirait de reposer les mains sur son clavier pour continuer de développer.
+  - Un hologramme de la scène engendre une technologie encore mal maitrisée. Mais on peut considérer que la visualisation au travers du casque s'en rapproche beaucoup
+  - La scène pourrait être visionable et éditable directement depuis le casque VR. Le casque de réalité virtuelle se transformerais donc de simple outil de visionnage / jeu, à un outil d'édition à part entière. 
+  - Intégrer l'IDE à l'inspecteur éviterais les vas et viens. Mais sur un simple écran la visibilité s'en retrouve réduite. L'espace de travail se trouvant nettement augmenté en VR (ref mike alger), il est tout à fait possible d'associer les deux.
+
+30. Regroupement d'idées
+  - Le casque avec pivotage automatique au dessus de la tête
+  - Développement dans la VR, et manipulation de la scène et de son contenu grâce aux contrôleurs ou aux mains. Temps réel.
+
