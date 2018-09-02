@@ -4,9 +4,6 @@
 
 - [La réalité virtuelle & la réalité augmentée comme outil de programmation informatique.](#la-r%C3%A9alit%C3%A9-virtuelle--la-r%C3%A9alit%C3%A9-augment%C3%A9e-comme-outil-de-programmation-informatique)
   - [Introduction](#introduction)
-  - [Remplissage du canvas de guide d'écriture du mémoire.](#remplissage-du-canvas-de-guide-d%C3%A9criture-du-m%C3%A9moire)
-    - [Ma mission proffessionelle : mon poste, mon périmètre, mes compétences.](#ma-mission-proffessionelle--mon-poste-mon-p%C3%A9rim%C3%A8tre-mes-comp%C3%A9tences)
-    - [Mon portfolio : projets passés, présents](#mon-portfolio--projets-pass%C3%A9s-pr%C3%A9sents)
     - [Mes lectures : les idées qui m'interpellent.](#mes-lectures--les-id%C3%A9es-qui-minterpellent)
     - [Ma problématique préférée](#ma-probl%C3%A9matique-pr%C3%A9f%C3%A9r%C3%A9e)
     - [Mes hypothèses, réponses possibles, comment les vérifier.](#mes-hypoth%C3%A8ses-r%C3%A9ponses-possibles-comment-les-v%C3%A9rifier)
@@ -43,63 +40,8 @@
 
 ## Introduction
 
-` Les outils informatiques actuels, écran, clavier, souris, ont été conceptualisés pour un besoin spécifique à une époque passée. Ce besoin était principalement un usage plat : écriture, visionnage d'image, calculs… Ces outils et leur utilisation n'est plus adapté pour du contenu de nouvelle génération tel que la réalité virtuelle. Le besoin a évolué et les technologies aussi. Des innovations sont apparues, et les casques de réalité virtuelle sont de plus en plus performants. Mais les outils utilisés pour créer les expèriences VR, lui, n'a pas changer. C'est pour cela que la conception de Jeux VR au travers de logiciels comme Unity3D par exemple n'est plus adaptée. Nous créons du contenu de nouvelles génération, où s'inscrit une troisième dimension, avec des outils d'un autre age. Il y a une dichotomie quand à l'utilisation et à la création de contenu VR. Les casques sont utilisés seulement une fois le développement réalisé. Les casques de VR sont utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
-
-## Remplissage du canvas de guide d'écriture du mémoire.
-
-### Ma mission proffessionelle : mon poste, mon périmètre, mes compétences.
-
-Je suis UX/UI designer, précédement développeur web. 
-
-Je suis responsable de créer des wireframe / prototypes pour répondre à un besoin, qui est souvent en lien avec le Web. Je suis chargé de vérifier leur utilité et usabilité. Si une des solutions proposée satisfait le client, je créer alors des maquettes haute fidélité de ces prototypes. Des maque<br>
-Précédement, j'étais développeur JavaScipt. J'avais pour responsabilité de développer des sites internet en accord avec les maquettes qu'avaient produit les Designers. J'étais aussi responsable de programmer la logique et les interactions entre la partie Front et les autres couches logiciel.
-
-Mon expertise technique concerne surtout les systèmes d'information, mais aussi en tant qu'ergonome, et en management agile car je suis aussi Scrum Master.
-
-### Mon portfolio : projets passés, présents
-
-Du plus récent au plus ancien :<br>
-  * Design du site internet [AYA](http://www.aya-experience.surge.sh) intégrant :
-    * Une page en réalité virtuelle.
-    * Une experience sonore immersive.
-    * Parallax et micro animations SVG
-    * Responsive
-
-  * Design du site internet de [formation Zenika](http://training.zenika.com) intégrant :
-    * Parcours utilisateurs
-    * Scénarios d'usage
-  
-  * Création du site internet de [recrutement Zenika](http://jobs.zenika.com) intégrant :
-    * Un backoffice utilisable et maintenable par le métier
-    * Scénarios d'usage
-    * Formulaire de contact conversationnel
-
-  * Design et développement d'une application web interne pour [Enedis](https://www.enedis.fr) permettant :
-    * La gestion de machine de traitement big data
-    * La visualisation de l'état de santé des systèmes
-    * La Gestion des profils et des équipes
-    * Le partage de paquets dans une communauté
-  
-  * Design et recherche pour une application mobile de la [WWF](https://www.wwf.com) :
-    * Contrat sous non-disclosure agreement.
-
-  * Accompagnement de la transformation manageriale et numérique de [Leroy Merlin](https://www.leroymerlin.fr) en Ukraine :
-    * Workshop de sensibilisation pour le comité de direction
-    * Création et organisation d'un jeu grandeur nature éducatif
-    * Supervision du Jeu sur 3 magasins, +350 participants
-    * Réalisation d'un after movie
-
-  * Design et développement d'un jeu mobile pour [Natixis](https://www.natixis.com):
-    * Jeu à but éducatif
-    * Sensibilisation du métier
-    * Utilisation de Unity3D
-    * Développement pour iOS et Android
-
-  * Design et développement des sites e-commerce [Solène Martin](http://www.solenemartin.com) et [Regard Bellec](http://www.regardbellec.com)
-
-  * Développement d'un pilote automatique pour le [CNES](http://www.cnes.fr):
-    * Séquence de vol d'un drone (aeronef à voilure fixe)
-    * Larguage de satellites en basse altitude
+`Les outils informatiques actuels — écran, clavier, souris… — ont été conceptualisés pour un besoin spécifique. Leur usage était majoritairement destiné à un format plat : écriture, visionnage d'image, calculs… Lors de la conception de ces outils, aussi bien materiel que logiciel, n'ont pas vu l'arrivée d'un média de nouvelle génération. Le besoin a évolué et les technologies aussi. Des innovations sont apparues, et les casques de réalité virtuelle sont devenus de plus en plus performants. Leur usage s'inscrivent dorénavant dans notre quotidien. Mais les outils utilisés pour les créer, eux, n'ont pas changé. Il y a une réelle dichotomie entre l'utilisation du materiel VR et ce qu'il peut nous offrir. Les casques sont utilisés pour visionner le travail accompli. Pourquoi ne pas l'utiliser comme outil de travail ?` 
+`J'ai effectué au travers de ce mémoire des intretiens utilisateurs et des recherches documentaires en suivant une méthodologie UX. Le but fut de comprendre le besoin et le désir des développeur VR. Cela m'a permis de comprendre les problèmes ergonomiques qui se posent actuellement dans la sphère VR. Je fut guidé par l'envie de rendre plus intuitif et productif, l'utilisation des outils de conception et de réalisation de ce nouveau média.`
 
 ### Mes lectures : les idées qui m'interpellent.
   * [Recherches de Mike Alger sur le design des interfaces VR](https://www.youtube.com/watch?v=id86HeV-Vb8) 
@@ -424,13 +366,13 @@ Un paradigme de programmation orienté objets conviendrait à une nouvelle méth
 LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Il suffit d'arranger des blocs fonctionnels entre eux. Le système permet d'effectuer la majorité des opérations courantes. Il est aussi possible de collaborer en directe. La programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. Logix s'approche-t-elle encore trop de la programmation écrite ?
 
 ### Premier retour des tests 
-Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » «Qu'est-ce que ça donne quand il y a un milier d'instruction ? 
-Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit décrit clairement son rôle, même à la vue d'un neophite.
+Le croquis d'essais que j'ai réalisés n'ont pas convaincu. Selon les utilisateurs, ce n'est pas assez clairs. « Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » « Qu'est-ce que ça donne quand il y a un milier d'instruction ? 
+Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit, décrit clairement son rôle. Même à la vue d'un neophite.
+Développer une nouvelle méthode de programmation demande beaucoup de temps et de nouveaux champs de problématiques à découvrir. Je ne le couvrerais pas dans cet ouvrage.
 
 ### Méthode encore immature
 Cette nouvelle méthode de programmation mérite d'être recherchée et affinée. Un fois mature, les développeurs devront sortir de leur zone de confort afin de changer leur manière de programmer.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Développement dans la VR
 Lors de la phase d'inspiration, j'ai pu cerner les besoins et désirs des développeurs VR. 
 Comme vu dans les entretiens il est contraignant de changer entre Réalité et VR, pour passer du développement au test en condition réelle. Enlever et mettre à le casque VR dégage l'émotion de perte de temps et d'energie. Cela amène aussi un certain inconfort physique : gènes, transpiration, irritations… 
@@ -485,19 +427,16 @@ Les points négatifs sont :
 Le VR mode d'Unreal Engine a créer une nouvelle approche. Elle permet de se déplacer avec aisance dans une scène, et éditer son contenu : Instancier des objets, les déplacer, incliner, agrandir/réduire, copier, détruire… Cela présente une réelle avancée et conforte une partie de mes hypothèses. Malheuresement rien ne permet de développer en VR dans Unreal Engine.
 
 ### Design d'Interface de programmation VR
+Après avoir trouvé, analysé, et écarté une poignée de thèmes, quelques idées et des révélations sont à ma disposition. Je peux en tirer un concept. Celui-ci est plus complet et affiné qu'une idée. Ce concept sera amélioré et progressera au fur et à mesure des tests auprès des utilisateurs potentiels :
 
-Si l'on croise les désirs de la phase d'inspiration et les fonctionnalités des solutions que l'on voit apparaître, nous pouvons lister les fonctionnalités minimales à integrer en réalité virtuel pour le développement : 
-  - L'utilisateur doit pouvoir se déplacer librement dans la scène, sans même avoir à bouger. Il peut manipuler la scène de manière macroscopique : la réduire ou l'agrandir pour avoir une vision plus globale ou détaillée, la déplacer, la faire pivoter.
-  - L'utilisateur doit pouvoir sélectionner un élément. Lors de la sélection, un afficheur tête haute (HUD) apparait à proximité. Le HUD affiche les propriétés de l'objet et en permet l'édition (taille, position, rotation, texture etc…)
-  - L'utilisateur doit pouvoir manipuler un objet manuellement sans avoir recours au HUD.
-  - L'utilisateur peut voir et manipuler l'arborescence des objets dans la scène et dans le dossier des objets du projet. La fenêtre sera visible ou fermée, fixe ou mobile.
-  - En sélectionnant un objet, l'utilisateur peut accéder à son code. Le code est affiché dans un HUD et peut être édité.
-  - L'utilisateur peut lancer, mettre en pause, ou arrêter la simulation. 
-  - Il doit être apte à voir une console lui rapportant les erreurs de processus.  
+Le développeur aura constemment le casque porté devant ses yeux. Il sera immergé dans la scène. Celui-ci verra les contours de son clavier et ses mains à l'aide d'une caméra sur la face avant de son casque. Cette visualisation aura une opacité réduite afin de ne pas entraver la visibilité de la scène. Dans la scène le développeur pourra :
+
+  - Se déplacer librement dans la scène, sans même avoir à bouger. Il pourra manipuler la scène de manière macroscopique : la réduire ou l'agrandir pour avoir une vision plus globale ou détaillée, la déplacer, la faire pivoter.
+  - Sélectionner un élément/objet. Lors de la sélection, un afficheur tête haute (HUD) apparaitra à proximité. Le HUD affiche les propriétés de l'objet et en permet l'édition (taille, position, rotation, texture etc…)
+  - Manipuler un objet manuellement sans avoir recours au HUD.
+  - Voir et manipuler l'arborescence des objets dans la scène et dans le dossier des objets du projet. La fenêtre sera visible ou fermée, fixe ou mobile.
+  - Accéder au code de l'objet sélectionné. Le code est affiché dans un HUD et peut être édité.
+  - Lancer, mettre en pause, ou arrêter la simulation. 
+  - Visualiser les messages systèmes, tels que les erreurs de compilations ou bugs.  
 
 ## Tester son design
-À ce point là, je me pose la question de comment puis-je tester mon design. En effet, une fois la solution designé, le produit doit être modifié, ou des fonctionnalités sont à coder. La question se pose donc : Comment tester que mon design est le bon avant même de se lancer dans une phase de développement très longue ?
-De même, le choix du logiciel et son étude de fonctionnement est un temps supplémentaire non négligeable à allouer.
-J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
-
-
