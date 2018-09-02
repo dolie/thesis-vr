@@ -263,13 +263,10 @@ Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans
   - Créer un plan de projet
   
   - Entretiens
-  - Définition du public
-  - Tri de cartes
   - Immersion
 
-  - Les cinq meilleurs idées
   - degager les thèmes
-  - Formulation de révélations
+  - Formulation des problématiques
   - Comment ferions nous pour
   - Créer des représentations visuelles
   - brainstorming
@@ -280,20 +277,23 @@ Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans
   - Story board
   - Prototypage rapide
 
+## Phase d'Inspiration
+Dans cette phase d'inspiration, il s'agit de s'ouvrir aux autres, afin d'apprendre et de comprendre la vision et ce que ressente les utilisateurs, et déceler leur désirs. La première des qualité à avoir pendant cette phase est bien évidemment l'empathie.  
+
 23. Définission du cadre du problème
 Quel est le problème que vous essayez de résoudre ?
-Le problème que j'essaie de résoudre concerne la réalité virtuelle. Notamment l'utilisation contraignante du casque de réalité virtuelle lors de la phase de développement de jeux vidéo ou d'expèrience VR.
+  Le problème que j'essaie de résoudre concerne la réalité virtuelle. J'aimerais faciliter le travail des développeurs en réalité virtuelle.
 
   1. Exprimez-le sous la forme d’une question.
-    Comment optimiser le développement de jeux vidéos, et expèrience VR. Notamment en supprimant les gestes répétitif et contraignant de vetir, dévétir un casque de réalité virtuelle.
+    Comment optimiser le développement de jeux vidéos, et expèrience VR ? Comment rendre le développement plus facile ? Comment le rendre plus intuitif ?
 
   2. Maintenant, énoncez l’impact optimal que vous espérez produire.
-    Je voudrais que tous les développeur de jeux vidéo ne sentent plus cette contrainte d'écran-clavier-souris / test expèrience en VR.
-  
+    Les développeur VR sentent un développement plus intuitif, et ressentent un gain en productivité. Il sentent les outils materiels et logiciels parfaitement adaptés au développement en VR. 
+
   3. Quelles sont les solutions possibles à votre problème ? Pensez large. C’est bien d’aborder un projet avec une ou deux idées sur la solution, mais assurez-vous qu’elles soient suffisamment ouvertes pour permettre des résultats surprenants.
-    Repenser l'utilisation du casque, du clavier, de la souris. Repenser la manière de programmer pour qu'elle soit plus adaptée.
+    Revoir l'utilisation du casque, du clavier, de la souris, la manière de développer pour une utilisation plus appropriée.
   4. Enfin, notez le contexte et les contraintes auxquels vous êtes confronté. Il peut s’agir de contraintes géographiques, technologiques, chronologiques ou concernant la population que vous essayez d’atteindre.
-    Les contraintes existantes sont, de par la naissance de la technologie, le peu de personnes développant des expèriences VR. 
+    Les contraintes existantes sont, de par la naissance de la technologie, le peu de personnes développant des expèriences VR, et les outils peu nombreux.  
   5. Votre question initiale a-t-elle besoin d’être affinée ? Recommencez
 
 24. Les entretiens
@@ -383,7 +383,7 @@ Je créer des applications mobile dans une petite équipe, souvent pour faire de
 Je développe des jeux vidéos en VR chez moi, pour m'amuser.
 Pour mon épanouissement personnel.
 Je travaille dans mon salon / chambre, je vis en collocation.
-J'utilise mon PC fixe avec Unity. J'ai trois écrans, un HTC Vive dont les bornes sont dans les coins de la pièces, mais je les ranges quand il y a du monde.
+J'utilise mon PC fixe avec Unity. Un HTC Vive dont les bornes sont dans les coins de la pièces, mais je les ranges quand il y a du monde.
 Je trouves des projets Unity sur le store que je télécharge et que je modifie pour une utilisation VR.
 
 J'aime regarder comment les développeurs s'y sont pris. Ensuite et je m'approprie le projet pour le transformer comme moi j'aimerais qu'il soit. Ça me permet de zapper toute une partie de création et d'aller à l'essentiel. 
@@ -394,3 +394,58 @@ Je me retrouve souvent à ne pas avoir le rendu que je veux en réalité virtuel
 Je suis plus productif quand il y a personne chez moi. Personne pour me déranger, et moi je ne dérange personne quand je joue au salon en VR ou quand je développe.
 Du code que je ne comprends pas. 
 Avoir ma propre pièce pour jouer / développer.
+
+25. Immersion
+Afin de parfaitement comprendre comment les développeur VR travaillent, leur problématique, je suis allé chez Christophe pour l'observer. Il m'a acceuilli un jour où ses colocataires étaient absents afin d'être plus tranquilles. Je m'intalle et l'observer pendant sa conception. 
+Le salon mesure environ trois mètres sur quatres. Son canapé lit contre le mur et son bureau dans le coin. Les contrôleurs et le casque sont posé par terre au centre de la pièce. 
+Il commence son travaille devant son ordinateur. Il utilise unity et commence par placer ses objets dans la scène et à créer les scripts associés. Il développe un petit peu puis se lève de son siège pour aller vêtir le casque et les contrôleur afin d'essayer. Il repose le tout par terre en me disant qu'il s'est trompé et que ce n'est pas au bon endroit. Plus tard, au bout de quelques essais, je remarque qu'il ne prends plus la peine de se lever de sa chaise. 
+Dorénavant, il roule avec sa chaise jusqu'au casque, puis se penche pour l'attraper. 
+Plus tard, encore il ne prends plus la peine de se déplacer et lorsqu'il enlève le tout, il le pose sur ses genoux. 
+Enfin, au bout de 45 minutes il ne prends plus la peine d'enlever le casque de sa tête mais le déplace seulement au dessus de ses yeux, sur son front, et place les contrôleurs sur le bord de son bureau, ou sur ses genoux. Parfois il enlève son casque et le met sur ses genoux, mais le casque est la majorité du temps sur son front à présent. Je remarque qu'il passe beaucoup de temps à manipuler les objets et sa caméra dans la scène, mais aussi à développer. D'ailleurs je remarque le comportement répétitif de passer de l'éditeur de code à Unity et inversement. Le développement s'achève au bout d'une heure et trents minutes.
+
+## Phase d'idéation
+Dans cette phase, je vais rassembler et analyser les données receuillies. Je vais alors produire une grande quantité d'idée et identifier des opportunitées de design. Tout ceci deviendra de plus en plus concret grâce à l'élaboration des premiers prototypes. Ces prototypes seront soumis à un regard critique pour collecter des avis précieux et ainsi affiner les prototypes.  
+
+26. Rétrospective des entretiens et de l'immersion
+Au travers des entretiens et de l'immersion, des motifs et des thèmes conducteurs émergent : (graphiques patatoïde)
+  - Répétition de mouvement
+  - Outils materiels et logiciels
+  - Visualiser & Manipuler
+  - Développer
+
+Évidemment ces thèmes peuvent changer au cours de la phase d'idéation.
+
+27. Formulation des problématique.
+Une grande quantité d'informations ont été receuilli. Il s'agit à présent de les distiller afin d'en dégager des problématiques, des révélations, qui guiderons la recherche.
+Il s'agit ici de copier les thèmes définis à la phase précédente et d'écrire les problématiques qui en découle sous la forme de phrase.
+
+__Rappel de ma problématique :__
+Rendre le développement en réalité virtuelle plus intuitif, facile à utiliser, et plus productif.
+
+*Thème :* Répétition des mouvements
+*Révélations :* 
+  - Les développeurs se fatiguent à aller chercher leur casques et leurs contrôleurs pour tester
+  - Les développeurs ne veulent pas perdre de temps ni d'energie
+  - Les développeurs trouvent des biais pour éviter les répétitions
+
+*Thème :* Outils materiels et logiciels
+*Révélations :*
+  - Le materiel VR n'est pas utilisé pour le développement
+  - Le clavier et la souris sont difficilement utilisable en même temps que le casque
+  - Certains logiciels manque de fonctionnalités standart pour le développement VR
+  - On ne peut pas tester et développer en même temps
+  - Le clavier et la souris sont fait pour une utilisation 2D.
+  - Biais d'utilisations
+
+*Thème :* Visualiser & Manipuler
+*Révélations :*
+  - La manipulation d'objet en 3D pourrait-être plus aisée.
+  - Visualiser la scène 3D passe par une phase de manipulation de caméra difficile.
+  - La visualisation est différente entre l'écran et en situation réele (en VR).
+
+*Thème :* Développer
+*Révélations :*
+  - Les fonctions sont peu parlantes et peu représentative parfois (axe x, y, z)
+  - Faire des va et viens entre l'IDE (MonoDevelop, Visual Studio Code) et l'inspecteur (Unity, A-Frame Inspector)
+
+28. Atelier *Comment ferions-nous pour* et brainstorming
