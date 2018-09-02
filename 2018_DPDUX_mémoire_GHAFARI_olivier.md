@@ -2,7 +2,7 @@
 
 ## Remplissage du canvas de guide d'écriture du mémoire.
 
-1. Ma mission proffessionelle : mon poste, mon périmètre, mes compétences.
+### Ma mission proffessionelle : mon poste, mon périmètre, mes compétences.
 
 Je suis UX/UI designer, précédement développeur web. 
 
@@ -11,7 +11,7 @@ Précédement, j'étais développeur JavaScipt. J'avais pour responsabilité de 
 
 Mon expertise technique concerne surtout les systèmes d'information, mais aussi en tant qu'ergonome, et en management agile car je suis aussi Scrum Master.
 
-2. Mon portfolio : projets passés, présents
+### Mon portfolio : projets passés, présents
 
 Du plus récent au plus ancien :<br>
   * Design du site internet [AYA](http://www.aya-experience.surge.sh) intégrant :
@@ -56,13 +56,13 @@ Du plus récent au plus ancien :<br>
     * Séquence de vol d'un drone (aeronef à voilure fixe)
     * Larguage de satellites en basse altitude
 
-3. Mes lectures : les idées qui m'interpellent.
+### Mes lectures : les idées qui m'interpellent.
   * [Recherches de Mike Alger sur le design des interfaces VR](https://www.youtube.com/watch?v=id86HeV-Vb8) 
   * [Mémoire de Mike Alger](https://drive.google.com/file/d/0B19l7cJ7tVJyRkpUM0hVYmxJQ0k/view)
   * [Les bonnes et les mauvaises choses du design d'outils en VR](http://blog.leapmotion.com/designing-vr-tools-good-bad-ugly/)
   * [Les interfaces de programmation visuelle, différentes formes pour différents types](https://medium.com/@stevekrouse/types-are-shapes-d6af1e83192f)
 
-4. Ma problématique préférée
+### Ma problématique préférée
 
 Les interfaces de programmations en Réalité Virtuelle et Réalité Augmentée
 
@@ -74,7 +74,7 @@ _Qui_ ? Les développeurs
 <br>_Pourquoi_ ? Les outiles utilisés sont inadaptés aux développement VR. Pourtant, le materiel VR possède de nombreux avantages pour la productivité et le confort.
 <br>_Combien_ ? Gratuit.
 
-5. Mes hypothèses, réponses possibles, comment les vérifier.
+### Mes hypothèses, réponses possibles, comment les vérifier.
 
 Les outils utilisés aujourd'hui ne sont pas adaptés au développement d'expèrience en réalité virtuelle. La combinaison écran et clavier ne suffisent plus au développement d'expèrience virtuelle dans un espace en trois dimension. L'invention de ces outils ont été fait pour des usages plats : l'écriture, l'affichage d'images etc… 
 Pour un usage différent, les outils se doivent d'être différent.
@@ -86,167 +86,11 @@ Elle permet une meilleure visualisation et construction de systèmes complexes (
 Elle permet une spatialisation de l'espace de travail. Cette spacialisation permet une répartition des taches sur un plus grand espace de travail qu'un écran de 15 pouces. Selon le design de Mike Alger, l'espace de travail «utile» — c'est à dire l'espace utilisable sans contraintes de vue et de mouvement — en réalité virtuelle permettrait d'utiliser une surface équivalente à 8 écrans 27 pouces (ref). Hors il a été prouvé que la multiplication des écrans permettait un gain de productivité jusqu'à 40%. 
 
 Si nous voulons créer des expèriences en réalité virtuelle de manière efficace et de meilleure qualité, nous ne devons plus utiliser les appareils VR comme simple medium de visualisation. Nous devons les utiliser comme des outils à part entière, pour qu'ils soient partie intégrante de la phase de développement. Ceci signifie qu'il faut repenser l'utilisation des outils actuels : écrans, clavier, souris, casque VR, contrôleur VR… Cette analyse fonctionnelle et cette reflexion ergonomique doit se faire autant d'un poin de vue physique, que logiciel. 
-
-6. D'autres méthodes de programmation.
-
-Il est difficile de rédiger du texte en utilisant un casque de réalité virtuelle. En effet, le clavier n'est pas visible. 
-
-`Alors pouvons-nous nous passer du clavier pour développer ?`
-Se passer de clavier engendre une rédaction de texte nettement infèrieur. 
-`Est-il possible de programmer sans utiliser de texte ?`
-Le développement est une construction algorithmique avant tout. En ce sens, beaucoup d'éléments sont récurrents : Les variables, les opérateurs, les conditions, les boucles et enfin les fonctions. Ses éléments étant peu nombreux, ils pourraient être représentés sous formes de blocs et agencés entre eux pour construire les argorithmes. 
-
-Ce genre de programmation existe et se retrouve dans plusieurs domaines. 
-Le premier étant l'électronique, où des portes logiques sont agencées entre elles, pour transformer le signal qui les traverse, ou pour actionner d'autres composants, et réaliser d'autres fonctions. On parle alors de programmation logique, application dérivée et élaborée de l'algèbre de Boole, de Georges Boole, fondement de l'informatique moderne(ref ou exemple)
-De manière plus générale, des fonctions informatiques représentées sous forme de blocs et agenceable entre eux se nomme la programmation visuelle. Il peut même être qualifié de programmation tangible si la programmation utilise des objets physique agencés entre eux(ref donner l'exemple de blocky scratch pad, UML, et les jouets de google, et le but/contexte de chacun).
-
-`Pourquoi ces pratiques de programmation ne sont-elles pas plus utilisées`
-Ces pratiques de programmation restent marginales quand à la rédaction de code. La raison est qu'il est plus rapide d'écriture du code que de chercher le bon bloc, et l'arranger avec les autres. (ref preuve ?) Surtout quand l'écriture peut atteinds 60 mots par minutes.
-La programmation visuelle ne se détache pas assez de la programmation écrite pour s'en démarquer. L'utilisation de système plus abstrait tels que la programmation logique pourrait peut-être faire la différence. La programmation comme en electronique, en assemblant des portes logique et autre composants fonctionnels, serait une bonne candidate.
-
-7. Modélisation
-
-La manipulation d'objet en réalité virtuelle est aisée. L'agencement d'objet 3D pourrait-il être utile pour développer ? Pour utiliser une telle forme de programmation, il faudrait modeliser chaque éléments de synthaxe sous une forme particulière. Ci-dessous un liste des éléments de synthaxe de la programmation informatique. Celle-ci est non-exaustive, mais elle représente la majorité des éléments de syntaxe que  l'on retrouve dans les languages informatique les plus courant:
-
-| Variables |  Opérateurs   | Conditions  | Boucles  | Fonctions |
-|:---------:|:-------------:|:-----------:|:--------:|:---------:|
-| booléens  | affectation   | if/else     | for      | 
-| nombres   | comparaison   | switch/case | do/while |
-| tableaux  | arithmétiques | try/catch   | while    |
-| textes    | binaires      |             | for/in   |
-| objets    | logiques      |             | for/of   |
-|           | chaînes       |
-|           | ternaire      |
-
-Au vu du faible nombre de composants, leur modélisation sous formes d'objets 3D parait faisable.
-La méthode de programmation est très intimement lié au language utilisé. Nous appelons ça : un paradigme de programmation.
-
-8. Paradigme de programmation
-Le paradigme de programmation détermine la vue qu'a le développeur de l'execution de son programme. Le paradigme de programmation change bien souvent d'un language de programmation à un autre. Utiliser un paradigme de programmation d'un language pour une nouvelle approche de dévelloper en réalité virtuelle serait érroné. En effet rien assure que le paradigme de programmation utilisé dans le code est le bon pour une programmation visuelle. Le bon paradigme existe-t-il déjà ? Quel paradigme pourrait être inspirant pour une utilisation en VR ? Un nouveau paradigme de programmation doit-il être créer ?
-
-Une multitude de paradigmes existent déjà. Ceux-ci sont classés en trois grande famille :
-  * Types de programmation impérative (et dérivés)
-  * Types de programmation orientée objet (et dérivés)
-  * Types de programmation déclarative (et dérivés)
-  * Inclassables tels que : évènementielle, orienté flux, par contrat …
-
-La programmation orienté objet s'inscrit particulièrement bien pour l'utilisation de blocs. La VR permet la visualisation et la manipulation d'objets 3D. 
-
-La programmation fonctionnelle, quand à elle, est interressante. Elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
-
-9. Divergence de la programmation VR et de la programmation logiciel.
-La programmation VR est assez particulière. En effet la plupart de fonctions permettent la manipulation d'objets : position, rotation, déplacement, échelle, instantiation, destruction… En ce sens elle est assez différente du dévellopement logiciel. Le développement logiciel est principalement utilisé pour recevoir, traiter, présenter des données. De même que le développement web est principalement utilisé pour présenter du contenu.
-
-Pour rappel, la réalité virtuelle possède la contrainte et l'avantage suivant : ne pas pouvoir utiliser l'écriture et l'avantage d'avoir un espace de travail relativement infini.
-
-La une nouvelle méthode de programmation pour la réalité virtuelle utiliserait un paradigme de programmation orienté objets utilisant l'interactions entre objets 3D, au sein même de la scene 3D.
-Ainsi, la programmation directe des objets permettrait de s'abstenir de creer et nommer les variables. Les propriétés des objets seraient visibles et disponible en lecture et en écriture dans l'objet pour connecter directement les blocs fonctionnels. Cette méthode de programmation se rapproche de la programmation d'automate (ref cx-programmer).
-
-10. Premier retour des tests 
-Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » «Qu'est-ce que ça donne quand il y a un milier d'instruction ? 
-Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit décrit clairement son rôle, même à la vue d'un neophite.
-
-11. La programmation logique, ce qui est existant
-LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Il suffit d'arranger des blocs fonctionnels entre eux. Le système permet d'effectuer la majorité des opérations courantes. Il est aussi possible de collaborer en directe. La programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. Logix s'approche-t-elle encore trop de la programmation écrite ?
-
-12. Méthode encore immature
-Cette nouvelle méthode de programmation mérite d'être recherchée et affinée. Un fois mature, les développeurs devront sortir de leur zone de confort afin de changer leur manière de programmer.
-
-Essayons à présent d'améliorer l'existant à l'aide d'une analyse fonctionnelle.
-
-## Analyse fonctionnelle
-
-L'analyse fonctionnelle (en conception, ne pas confondre avec l'analyse fonctionnelle en mathématique) a pour objectif de rechercher et caractériser les fonctionnalités offertes par un produit afin de satisfaire les besoins d'un utilisateur.
-Je vais donc formaliser et valider le besoin des utilisateurs de logiciels de création d'expèrience VR. Puis je rechercherais et caractériserais les fonctions dans le but d'améliorer les produits existants.
-
-L'analyse fonctionnelle concerne un système. Un système est un ensemble d'éléments interagissant selon un principe.
-Les caracteristique de celui-ci sont : 
-  - Des utilisateurs et des usagers
-  - des frontières et un environnement définies — je vais donc devoir définir ces frontières et cet environnement —
-  - Il réalise une mission
-  - Enfin il se maintient dans un environnement changeant.
-
-13. Comprendre ses utilisateurs
-
-`La première chose que l'on peut se poser lorsque l'on a un produit c'est : à qui sert-il ? Il faut donc définir les utilisateurs de ce produit ainsi que ses usagers. L'usager sera toute personne en relation avec ce produit, tandis que l'utilisateur sera la personne pour qui le produit aura été créer.`
-
-La première chose est de comprendre qui sont les utilisateurs du code pour la VR/AR.
-Les utilisateurs de code dans la VR / AR sont les développeurs de VR / AR.
-Quels sont leur pain points ? 
-Je suppose que le principale painpoint est de changer entre Réalité et VR lorsqu'ils développent et lorsqu'ils testent en condition réelle. Enlever et mettre à nouveau le masque est quelque-chose de contraignant. (Compléter avec d'autres points contraignants)
-
-14. Problématique de visibilité du clavier
-Pour retirer cette contraintes, un solution serait de pouvoir écrire le code sans devoir retirer son casque.
-Deux problématiques apparaissent ici : 
-  - La première est de pouvoir voir ces touches de clavier. En effet, 70 % des développeurs codent en regardant totalement ou partiellement leur clavier.
-  - La seconde est de retrouver son clavier : 80 % des appareils de VR/AR utilisent un controleur (hors visionneuses simple) . Pour les tests sur ces appareils, les développeurs doivent retirer leurs mains du clavier afin de saisir les contrôleurs. Après le test de l'application, il est nécessaire de retrouver le clavier de vue pour continuer le développement.
-
-15. Voir son clavier au travers du casque.
-La solution idéale serait de pouvoir voir son clavier, tout en portant le casque. Plusieurs solutions existent déjà :
-  - Avoir un casque transparent, ce qui est le cas pour certain casque AR (Magic Leap, Project North Star,…)
-  - Avoir un casque possédant une caméra sur la face avant, pouvant retransmettre l'image dans le casque (HTC Vive, Vive Pro, Lenovo Explorer, Lenovo mirage )
-Dans le premier cas, le clavier est directement visible, les objets 3D se superposent à là réalité à l'aide d'une lentille.
-Dans le second cas, la caméra est souvent désactivée par défaut. Ça permet une immersion complète dans l'expérience. D'où le nom de Réalité Virtuelle et non de Réalité Augmentée.
-Lorsque celle-ci est activée, la réalité est visible complètement — l'expérience virtuelle s'arrête — , soit au travers d'une petite fenêtre, soit en supperposition à l'experienc VR avec une opacité réduite ou stylisée avec un filtre passe-haut appliquée à l'image par exemple.
-
-16. Place du clavier dans l'experience VR.
-La problématique à présent est de savoir comment s'articulerait d'un point de vue materiel, l'utilisation du clavier au sein de l'AR et de la VR.
-Les casques d'AR utilisant principalement des lentilles transparente, le clavier est naturellement remarquable dans l'environnement de l'utilisateur. Dans le cas d'une expérience AR intensive, et que le clavier n'est plus visible, on imaginera possible la localisation du clavier d'une seule action, à l'aide d'un mise en lumière, de contour ou autre. Concernant l'utilisation de casque opaques — les casques VR — il faut prendre en compte plusieurs paramètres.
-Je me suis donc concentré sur les casques VR qui offrent le plus de défis ergonomiques.
-
-17. Espace de travail.
-
-`Quel est l'environnement du produit ? La méthode pour le trouvé est assez simple; il suffit de se mettre à la place du produit et d'observer ce qu'il y a autour.Nous parlerons ici **d'interacteurs** du système pour nommer tous ces éléments de l'environnement.`
-
-Dans un premier temps, déterminons l'environnement de travail typique d'un développeur. Un bureau de 1 mètre sur 1.5 mètre à une hauteur de 80 centimètres, sur lequel repose l'ordinateur et le clavier. Ce bureau se trouve à l'avant d'un espace libre d'environ 2 mètres sur 2 mètres dans lequel le développeur peut se déplacer librement.
-
-Le développeur doit pouvoir écrire sont code et tester aisément. Pour cela il doit pouvoir voir son clavier. De manière clair ou à minima l'emplacement du clavier et l'emplacement des touches. Il doit être en capacité de pouvoir retrouver son clavier un fois le test lancé. Il doit être aussi en mesure de retrouver sa chaise dans le cas où il doit se lever pour tester l'application.
-Voici différents prototypes d'agencement d'espace de travail.
-  - Le mode chaperon est constamment activé sur la zone définie par l'utilisateur.
-  - Le clavier est détecté par les stations et modélisé dans la VR (Système identique au système des contrôleur du HTC Vive). Le problème de la visiblité des main se pose. Cette problématique est importante car on ne sait pas ou sera posé exactement nos doigts. On peut imaginer le mode chaperon activé uniquement pour les mains.
-  - Le clavier est détecté par la caméra (embarquée ou déportée) et retransmet une image réduite uniquement focalisée sur le clavier avec une opacité de l'image réglable. Comme une fenêtre dans la VR donnant sur la réalité.
-  - Cette même fênetre pourrait être activée et désactivée, selon si l'utilisateur pose les manettes de chaques côté du clavier ou non. Lorsque les manettes sont prises en mains la fênetre se ferme. Pour réactiver la fenêtre, les manettes doivent être replacée à l'endroit indiqué par des tâches (de chaques côté du clavier, ou défini par l'utilisateur).
-  - Le mode Chaperon est activé lors de la sortie de l'espace de jeu, afin de voir les obstacles, ou pour retrouver sa chaise par exemple.
-
-18. Les outils de création de contenu VR
-Plusieurs outil permettent de créer des scènes VR. Unity3D, Unreal Engine et permettent de créer du contenu VR avec beaucoup d'interactions, tels que des jeux vidéos; 3DS Max et Cinema 4D permettent de créer des scènes visionable avec peu d'interaction; tandis que A-frame et ReactVR permettent de réaliser de la VR dans le Web. 
-
-19. Interfaces de programmation VR : ce qui existe.
-Retrouver son clavier pour pouvoir développer ne suffit pas. L'écriture de code en VR doit s'articuler parfaitement avec les programmes existant. Aujourd'hui, des solutions existent, voici quelques exemples :
-  - RiftSquetch
-  - Primrose
-  - Autres prototypes inconnus
-  
-Le design de ces outils est assez similaire : 
-  - Le développeur est dans une scène où se trouve devant lui une fênetre dans laquelle il peut visionner et écrire le code. 
-  - Le code défini l'entièreté de la scène. C'est à dire qu'il ne peut pas avoir plusieur code pour une scène. Par exemple, il ne peut pas avoir une fenêtre de code par objets présents dans la scène. Tout est développé dans un seul fichier.
-  - Les objets de la scène ne peuvent pas être placés, manipulés, modifiés manuellement. Ce design oblige le développeur à placer les objets dans la scène, tandis que c'est le rôle du level designer. Le rôle du développeur est de programmer la logique, la mécanique de jeu, les moteurs physique et graphique…
-  - Le déplacement dans la scène est impossible
-  - La position de la fenêtre de code n'est pas intelligente, celle-ci est fixe.
-  - Ces outils ne fonctionnent pas pour des outils grand public comme énnoncés plus haut.
-
-20. Design d'Interface de programmation VR
-
-`La question qui se pose ensuite est : à quoi sert le produit ? Il sert à une fonction principale mais aussi à beaucoup de fonctions secondaires. Nous devrons donc identifier et formuler toutes ces fonctions auquelles va répondre le produit.`
-
-Difficile de designer une interface de programmation VR pour chaque logiciels grand public présents et futurs. Néanmoins, des règles de bonnes pratique peuvent être définies. Des règles qui peuvent s'appliquer de manière générique, qui facilite la vie des développeurs. 
-  - L'utilisateur doit pouvoir se déplacer librement dans la scène, sans même avoir à bouger. Il peut en quelque sorte manipuler la scène : réduire la scène pour avoir une vision plus globale, ou déplacer la scène dans un sens ou dans un autre pour avoir la vision ciblée sur un élément particulier.
-  - L'utilisateur doit pouvoir sélectionner un élément pour en observer ou modifier ses propriétés de manière manuelle. Il peut modifier sa taille, sa position, rotation, texture etc… Lors de la sélection, un afficheur tête haute (HUD) apparaitrait non loin de l'objet afin d'en visionner / manipuler les propriétés.
-  - L'utilisateur doit être en mesure de voir et manipuler l'arborescence des objets dans la scène et dans le dossier des objets du projet. Ceci pourra se faire via une fenêtre omniprésente ou non, fixe ou mobile.
-  - L'utilisateur doit pouvoir accéder au code d'un objet, en le sélectionnant dans la scène ou dans les objets disponibles du projet.
-  - L'utilisateur peut lancer ou arrêter, ou mettre en pause la simulation. 
-  - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
-
-` Les outils actuels ont été conceptualisés pour un besoin à un instant donné : création de contenu observable sur un écran plat. Hors Le besoin peut évoluer au cours du temps et les technologies aussi. Des innovations peuvent apparaître et l'utilisation peut changer (exemple fort boyard). C'est pour cela que la conception de Jeux VR au travers de Unity par exemple n'est plus adaptée. Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
-
-21. Tester son design
-À ce point là, je me pose la question de comment puis-je tester mon design. En effet, une fois la solution designé, le produit doit être modifié, ou des fonctionnalités sont à coder. La question se pose donc : Comment tester que mon design est le bon avant même de se lancer dans une phase de développement très longue ?
-De même, le choix du logiciel et son étude de fonctionnement est un temps supplémentaire non négligeable à allouer.
-J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence centrale lille.
 
-21. Conception centrée utilisateur
+### Conception centrée utilisateur
 Afin de conceptualiser la meilleur solution possible, je vais utiliser la méthodologie de conception centré utilisateur décrite par IDEO. 
 Une conception centrée sur l'humain c'est comprendre que la personne concernée par la problématique est la première personne à pouvoir nous aider. Elle informera précisément et révélera les problématiques les plus pertinentes.
 Ce sont eux qui sont la clé de la solution.
@@ -257,7 +101,7 @@ Le processus se décrit en trois grande phases :
 
 Cette méthodologie permet d'avoir un inpact réel. Cela se traduit par la production d'une solution désirable, faisable technologiquement, et viable financièrement.
 
-22. Les outils
+### Les outils
 Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans son guide pratique. Chaque projet est unique. Ainsi certains sont plus pertinents que d'autres suivant le contexte. Les outils choisis pour cette étude sont les suivants :
   - Définition du cadre du défi conceptuel
   - Créer un plan de projet
@@ -280,7 +124,7 @@ Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans
 ## Phase d'Inspiration
 Dans cette phase d'inspiration, il s'agit de s'ouvrir aux autres, afin d'apprendre et de comprendre la vision et ce que ressente les utilisateurs, et déceler leur désirs. La première des qualité à avoir pendant cette phase est bien évidemment l'empathie.  
 
-23. Définission du cadre du problème
+### Définission du cadre du problème
 Quel est le problème que vous essayez de résoudre ?
   Le problème que j'essaie de résoudre concerne la réalité virtuelle. J'aimerais faciliter le travail des développeurs en réalité virtuelle.
 
@@ -296,18 +140,18 @@ Quel est le problème que vous essayez de résoudre ?
     Les contraintes existantes sont, de par la naissance de la technologie, le peu de personnes développant des expèriences VR, et les outils peu nombreux.  
   5. Votre question initiale a-t-elle besoin d’être affinée ? Recommencez
 
-24. Les entretiens
+### Les entretiens
 Les entretiens se trouvent au cœur de la phase d'Inpiration de la conception centrée utilisateur. En effet, ils permettent de cerner et comprendre les besoins des utilisateurs ainsi que leur aspirations.
 En annexe, le guide d'entretien.
 
-### Questions générales
+**Questions générales**
 Quel age as-tu ? 
 Ou vis-tu ? 
 Dans quelle branche de métier travail tu ? 
 Quel poste occupes-tu ? 
 Quel fais-tu au quotidien ?
 
-### Questions plus précises à la VR
+**Questions plus précises à la VR**
 Dans quel cadre utilises-tu la VR ?
 Que fais-tu avec la VR ?
 Dans quel but ? 
@@ -395,7 +239,7 @@ Je suis plus productif quand il y a personne chez moi. Personne pour me dérange
 Du code que je ne comprends pas. 
 Avoir ma propre pièce pour jouer / développer.
 
-25. Immersion
+### Immersion
 Afin de parfaitement comprendre comment les développeur VR travaillent, leur problématique, je suis allé chez Christophe pour l'observer. Il m'a acceuilli un jour où ses colocataires étaient absents afin d'être plus tranquilles. Je m'intalle et l'observer pendant sa conception. 
 Le salon mesure environ trois mètres sur quatres. Son canapé lit contre le mur et son bureau dans le coin. Les contrôleurs et le casque sont posé par terre au centre de la pièce. 
 Il commence son travaille devant son ordinateur. Il utilise unity et commence par placer ses objets dans la scène et à créer les scripts associés. Il développe un petit peu puis se lève de son siège pour aller vêtir le casque et les contrôleur afin d'essayer. Il repose le tout par terre en me disant qu'il s'est trompé et que ce n'est pas au bon endroit. Plus tard, au bout de quelques essais, je remarque qu'il ne prends plus la peine de se lever de sa chaise. 
@@ -406,7 +250,7 @@ Enfin, au bout de 45 minutes il ne prends plus la peine d'enlever le casque de s
 ## Phase d'idéation
 Dans cette phase, je vais rassembler et analyser les données receuillies. Je vais alors produire une grande quantité d'idée et identifier des opportunitées de design. Tout ceci deviendra de plus en plus concret grâce à l'élaboration des premiers prototypes. Ces prototypes seront soumis à un regard critique pour collecter des avis précieux et ainsi affiner les prototypes.  
 
-26. Rétrospective des entretiens et de l'immersion
+### Rétrospective des entretiens et de l'immersion
 Au travers des entretiens et de l'immersion, des motifs et des thèmes conducteurs émergent : (graphiques patatoïde)
   - Répétition de mouvement
   - Outils materiels et logiciels
@@ -415,7 +259,7 @@ Au travers des entretiens et de l'immersion, des motifs et des thèmes conducteu
 
 Évidemment ces thèmes peuvent changer au cours de la phase d'idéation.
 
-27. Formulation des problématique.
+### Formulation des problématique.
 Une grande quantité d'informations ont été receuilli. Il s'agit à présent de les distiller afin d'en dégager des problématiques, des révélations, qui guiderons la recherche.
 Il s'agit ici de copier les thèmes définis à la phase précédente et d'écrire les problématiques qui en découle sous la forme de phrase.
 
@@ -448,7 +292,7 @@ Rendre le développement en réalité virtuelle plus intuitif, facile à utilise
   - Les fonctions sont peu parlantes et peu représentative parfois (axe x, y, z)
   - Faire des va et viens entre l'IDE (MonoDevelop, Visual Studio Code) et l'inspecteur (Unity, A-Frame Inspector)
 
-28. Atelier *Comment ferions-nous pour*
+### Atelier *Comment ferions-nous pour*
   - Le casque se trouve au dessus de leur tête et pivote
   - Abaissement du casque automatique
   - Le développement se fait directement dans la VR
@@ -458,7 +302,7 @@ Rendre le développement en réalité virtuelle plus intuitif, facile à utilise
   - On peut regarder et manipuler la scène depuis la VR directement
   - Intégrer l'IDE à l'inspecteur.
 
-29. Reflexion sur les idées
+### Reflexion sur les idées
   - Le casque se trouverais à proximité de la tête, et se placerais automatiquement devant les yeux lors du lancement du test : contrainte matériel. Cela nécéssite une insatallation supplémentaire, ainsi qu'une automatisation.
   - Le développement s'effectue à l'aide d'un clavier. Développer directement dans la VR permettrais de ne plus avoir ce passage code -> test mais de pouvoir visionner directement le rendu en temps réel. La contrainte ici est l'utilisation d'un clavier. Elle est difficile car les casques sont souvent opaque. Heuresement, certains d'entres eux sont équipé de caméra à l'avant. Un solution serait de pouvoir voir le clavier à l'aide de cette caméra en portant casque.
   - Développer avec les contrôleur par exemple, placer, assembler des blocs. Peut-être existe-t-il d'autres méthodes de programmation sans clavier.
@@ -467,7 +311,159 @@ Rendre le développement en réalité virtuelle plus intuitif, facile à utilise
   - La scène pourrait être visionable et éditable directement depuis le casque VR. Le casque de réalité virtuelle se transformerais donc de simple outil de visionnage / jeu, à un outil d'édition à part entière. 
   - Intégrer l'IDE à l'inspecteur éviterais les vas et viens. Mais sur un simple écran la visibilité s'en retrouve réduite. L'espace de travail se trouvant nettement augmenté en VR (ref mike alger), il est tout à fait possible d'associer les deux.
 
-30. Regroupement d'idées
+### Regroupement d'idées, recherches.
   - Le casque avec pivotage automatique au dessus de la tête
+  - Autres méthodes de programmation en VR, en n'utilisant pas de clavier.
   - Développement dans la VR, et manipulation de la scène et de son contenu grâce aux contrôleurs ou aux mains. Temps réel.
 
+## D'autres méthodes de programmation.
+
+Il est difficile de rédiger du texte en utilisant un casque de réalité virtuelle. En effet, le clavier, comme tout ce qui nous entoure n'est plus visible lors de l'utilisation d'un casque . 
+
+`Alors pouvons-nous nous passer du clavier pour développer ? Est-il possible de programmer sans utiliser de texte ?`
+Le développement est une construction algorithmique avant tout. En ce sens, beaucoup d'éléments sont récurrents : Les variables, les opérateurs, les conditions, les boucles et enfin les fonctions. Ses éléments étant peu nombreux, ils pourraient être représentés sous formes de blocs et agencés entre eux pour construire les argorithmes. 
+
+Ce genre de programmation existe et se retrouve dans plusieurs domaines. 
+Le premier étant l'électronique, où des portes logiques sont agencées entre elles, pour transformer le signal qui les traverse, ou pour actionner d'autres composants, et réaliser d'autres fonctions. On parle alors de programmation logique, application dérivée et élaborée de l'algèbre de Boole, de Georges Boole, fondement de l'informatique moderne(ref ou exemple)
+De manière plus générale, des fonctions informatiques représentées sous forme de blocs et agenceable entre eux se nomme la programmation visuelle. Il peut même être qualifié de programmation tangible si la programmation utilise des objets physique agencés entre eux(ref donner l'exemple de blocky scratch pad, UML, et les jouets de google, et le but/contexte de chacun).
+
+`Pourquoi ces pratiques de programmation ne sont-elles pas plus utilisées`
+Ces pratiques de programmation restent marginales quand à la rédaction de code. La raison est qu'il est plus rapide d'écrire le nom du bloc plutôt que de le chercher, et l'arranger avec les autres. (ref preuve ?) Surtout quand l'écriture peut atteinds 60 mots par minutes.
+Les programmation visuelle actuelle ne se détache pas assez de la programmation écrite pour s'en démarquer. L'utilisation de système plus abstrait tels que la programmation logique pourrait peut-être faire la différence. La programmation comme en electronique, en assemblant des portes logique et autre composants fonctionnels, serait une bonne candidate.
+
+### Modélisation
+
+La manipulation d'objet en réalité virtuelle est aisée. L'agencement d'objet 3D pourrait-il être utile pour développer ? Pour utiliser une telle forme de programmation, il faudrait modeliser chaque éléments de synthaxe sous une forme particulière. Ci-dessous un liste des éléments de synthaxe de la programmation informatique. Celle-ci est non-exaustive, mais elle représente la majorité des éléments de syntaxe que  l'on retrouve dans les languages informatique les plus courant:
+
+| Variables |  Opérateurs   | Conditions  | Boucles  | Fonctions |
+|:---------:|:-------------:|:-----------:|:--------:|:---------:|
+| booléens  | affectation   | if/else     | for      | 
+| nombres   | comparaison   | switch/case | do/while |
+| tableaux  | arithmétiques | try/catch   | while    |
+| textes    | binaires      |             | for/in   |
+| objets    | logiques      |             | for/of   |
+|           | chaînes       |
+|           | ternaire      |
+
+Au vu du faible nombre de composants, leur modélisation sous formes d'objets 3D parait faisable.
+
+### Paradigme de programmation
+La méthode de programmation est très intimement lié au language utilisé. Nous appelons ça : un paradigme de programmation.
+Le paradigme de programmation détermine la vue qu'a le développeur de l'execution de son programme. Le paradigme de programmation change bien souvent d'un language de programmation à un autre. Utiliser un paradigme de programmation d'un language existant pour une nouvelle approche de développer en réalité virtuelle serait érroné. En effet rien assure que le paradigme de programmation utilisé dans le code est le bon pour une programmation visuelle. Le bon paradigme existe-t-il déjà ? Quel paradigme pourrait être inspirant pour une utilisation en VR ? Un nouveau paradigme de programmation doit-il être créer ?
+
+Une multitude de paradigmes existent déjà. Ceux-ci sont classés en trois grande famille :
+  * Types de programmation impérative (et dérivés)
+  * Types de programmation orientée objet (et dérivés)
+  * Types de programmation déclarative (et dérivés)
+  * Inclassables tels que : évènementielle, orienté flux, par contrat …
+
+La programmation orienté objet s'inscrit particulièrement bien pour l'utilisation de blocs. La VR permet la visualisation et la manipulation d'objets 3D. 
+
+La programmation fonctionnelle, quand à elle, est interressante. Elle s'abstient des noms de variables, pour n'utiliser que des fonctions. 
+
+### Divergence de la programmation VR et de la programmation logiciel.
+La programmation VR est assez particulière. En effet la plupart de fonctions permettent la manipulation d'objets : position, rotation, déplacement, échelle, instantiation, destruction… En ce sens elle est assez différente du dévellopement logiciel. Le développement logiciel est principalement utilisé pour recevoir, traiter, présenter des données. De même que le développement web est principalement utilisé pour présenter du contenu.
+
+Pour rappel, la réalité virtuelle possède la contrainte et l'avantage suivant : difficulté pour utiliser le clavier et donc écrire et l'avantage d'avoir un espace de travail relativement infini.
+
+Un paradigme de programmation orienté objets conviendrait à une nouvelle méthode de programmation pour la réalité virtuelle où les interactions entre objets 3D sont utilisées, au sein même de la scene 3D. Ainsi, la programmation directe des objets permet de s'abstenir de créer et nommer les variables. Les propriétés des objets seraient visibles et disponible en lecture et écriture dans l'objet pour connecter directement les blocs fonctionnels. Cette méthode de programmation se rapproche de la programmation d'automate (ref cx-programmer).
+
+### La programmation logique, ce qui existe.
+LogiX est un système de programmation logique qui permet aux utilisateurs de la simulation de monde NEOSVR de programmer à l'interieur même de la VR. Il suffit d'arranger des blocs fonctionnels entre eux. Le système permet d'effectuer la majorité des opérations courantes. Il est aussi possible de collaborer en directe. La programmation devient vite non maintenable et illisible de part la multitude d'éléments visible et de leur interconnections. Logix s'approche-t-elle encore trop de la programmation écrite ?
+
+### Premier retour des tests 
+Le croquis d'essais ne sont pas, selon les utilisateurs test assez clairs. «Cela fait brouillon, on y voit pas grands chose» « À première vu on ne comprends pas ce que le "code" veut dire. » «Qu'est-ce que ça donne quand il y a un milier d'instruction ? 
+Le désavantage de cette solution est d'offusquer la fonction de l'algorithme, là où un code écrit décrit clairement son rôle, même à la vue d'un neophite.
+
+### Méthode encore immature
+Cette nouvelle méthode de programmation mérite d'être recherchée et affinée. Un fois mature, les développeurs devront sortir de leur zone de confort afin de changer leur manière de programmer.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Analyse fonctionnelle
+
+L'analyse fonctionnelle (en conception, ne pas confondre avec l'analyse fonctionnelle en mathématique) a pour objectif de rechercher et caractériser les fonctionnalités offertes par un produit afin de satisfaire les besoins d'un utilisateur.
+Je vais donc formaliser et valider le besoin des utilisateurs de logiciels de création d'expèrience VR. Puis je rechercherais et caractériserais les fonctions dans le but d'améliorer les produits existants.
+
+L'analyse fonctionnelle concerne un système. Un système est un ensemble d'éléments interagissant selon un principe.
+Les caracteristique de celui-ci sont : 
+  - Des utilisateurs et des usagers
+  - des frontières et un environnement définies — je vais donc devoir définir ces frontières et cet environnement —
+  - Il réalise une mission
+  - Enfin il se maintient dans un environnement changeant.
+
+### Comprendre ses utilisateurs
+
+`La première chose que l'on peut se poser lorsque l'on a un produit c'est : à qui sert-il ? Il faut donc définir les utilisateurs de ce produit ainsi que ses usagers. L'usager sera toute personne en relation avec ce produit, tandis que l'utilisateur sera la personne pour qui le produit aura été créer.`
+
+La première chose est de comprendre qui sont les utilisateurs du code pour la VR/AR.
+Les utilisateurs de code dans la VR / AR sont les développeurs de VR / AR.
+Quels sont leur pain points ? 
+Comme vu dans les entretiens il est contraignant de changer entre Réalité et VR, pour passer du développement au test en condition réelle. Enlever et mettre à nouveau le masque est une perte de temps et d'energie et amène aussi un certain inconfort physique : gènes, transpiration…
+
+### Problématique de visibilité du clavier
+Écrire le code sans devoir retirer son casque, aboli cette contrainte.
+Deux problématiques apparaissent ici : 
+  - Comment voir ces touches de clavier ? En effet, 70 % des développeurs codent en regardant totalement ou partiellement leur clavier.
+  - Comment retrouver son clavier après test ? 80 % des appareils de VR/AR utilisent un controleur (hors visionneuses simple). Pour les tests, les développeurs retirent leurs mains du clavier pour saisir les contrôleurs. Après le test de l'application, il doivent retrouver le clavier pour continuer le développement.
+
+### Voir son clavier au travers du casque.
+Comment voir son clavier tout en portant le casque ? Plusieurs solutions existent déjà :
+  - Utiliser un casque transparent, ce qui est le cas pour certain casque AR (Magic Leap, Project North Star,…)
+  - Utiliser un casque intégrant une caméra sur sa face avant. Cette caméra retransmet l'image dans le casque (HTC Vive, Vive Pro, Lenovo Explorer, Lenovo mirage )
+Dans le premier cas, le clavier est directement visible, les objets 3D se superposent à là réalité à l'aide d'une lentille.
+Dans le second cas, la caméra est désactivée par défaut pour permettre une immersion complète dans l'expérience. D'où le nom de Réalité Virtuelle et non de Réalité Augmentée.
+Lorsque celle-ci est activée, l'expérience virtuelle s'arrête et la réalité est complètement visible. La réalité est visionnable au travers d'une petite fenêtre, ou en supperposition à l'experience VR en pause. L'image de la réalité est retransmise avec une opacité réduite ou stylisée. Le style appliqué peut être un filtre passe-haut par exemple.
+
+### Place du clavier dans l'experience VR.
+Comment s'articulerait l'utilisation du clavier au sein de l'AR et de la VR d'un point de vue materiel ?
+Les casques d'AR utilisent principalement des lentilles transparente. Le clavier est remarquable naturellement dans l'environnement de l'utilisateur. 
+Si l'expérience AR devient intense, le clavier n'est plus visible. La localisation du clavier peut se faire d'une seule action, à l'aide d'un mise en lumière, de contour etc… Pour les casque VR qui sont opaques il faut prendre en compte plusieurs paramètres.
+Je me suis donc concentré sur les casques VR qui offrent le plus de défis ergonomiques.
+
+### Espace de travail.
+
+Les informations de l'immersion et des entretions décrivent l'espace de travail moyen d'un développeur : un bureau de 1 mètre sur 1.5 mètre à une hauteur de 80 centimètres, sur lequel repose l'ordinateur et le clavier. Ce bureau se trouve à l'avant d'un espace libre d'environ 2 mètres sur 2 mètres dans lequel le développeur peut se déplacer librement pour utiliser son materiel VR.
+
+Le développeur veut écrire sont code et tester aisément. Pour développer il doit voir son clavier de manière clair ou à minima l'emplacement du clavier et l'emplacement des touches. Il doit être en capacité de retrouver son clavier un fois le test lancé. Il doit être aussi retrouver sa chaise si il s'est levé pour tester l'application.
+Voici différents prototypes d'agencement d'espace de travail :
+  - Le mode chaperon est constamment activé sur la zone définie par l'utilisateur.
+  - Le clavier est détecté par les stations et modélisé dans la VR (Système identique au système des contrôleur du HTC Vive). Le problème de la visiblité des main se pose. Cette problématique est importante car on ne sait pas ou sera posé exactement nos doigts. On peut imaginer le mode chaperon activé uniquement pour les mains.
+  - Le clavier est détecté par la caméra (embarquée ou déportée) et retransmet une image réduite uniquement focalisée sur le clavier avec une opacité de l'image réglable. Comme une fenêtre dans la VR donnant sur la réalité.
+  - Cette même fênetre pourrait être activée et désactivée, selon si l'utilisateur pose les manettes de chaques côté du clavier ou non. Lorsque les manettes sont prises en mains la fênetre se ferme. Pour réactiver la fenêtre, les manettes doivent être replacée à l'endroit indiqué par des tâches (de chaques côté du clavier, ou défini par l'utilisateur).
+  - Le mode Chaperon est activé lors de la sortie de l'espace de jeu, afin de voir les obstacles, ou pour retrouver sa chaise par exemple.
+
+### Intégration aux outils existants création de contenu VR
+Plusieurs outil permettent de créer des scènes VR. Unity3D, Unreal Engine permettent de créer du contenu VR avec beaucoup d'interactions, tels que des jeux vidéos; 3DS Max et Cinema 4D permettent de créer des scènes visionable avec peu d'interaction; tandis que A-frame, ReactVR et WebVR permettent de réaliser de la VR dans le Web. 
+
+### Interfaces de programmation VR : ce qui existe.
+Chaques logiciels possèdent leurs propres fonctions, méthodes de manipulations et d'édition. C'est pourquoi le développement en VR est intimement lié avec le logiciel utilisé. Aujourd'hui, différentes solutions hybrides existent selon le logiciel pour utiliser la VR comme outil de code ou d'édition de scène :
+  - RiftSquetch pour WebVR
+  - Primrose pour WebVR
+  - VR mode d'Unreal Engine
+  - Autres prototypes inconnus
+  
+Pour RiftSquetch et Primrose, le développeur est dans la scène. Une fênetre est devant lui dans laquelle écrire le code associé à la scène. 
+Les points négatifs sont :
+  - Il n'y a pas de segmentation de code selon l'objet sélectionner. Le code défini l'entièreté de la scène.
+  - Les objets de la scène ne peuvent pas être placés, manipulés, modifiés manuellement. Le développeur doit placer les objets dans la scène à l'aide du code. L'intervention d'un level designer est impossible.
+  - Le déplacement dans la scène est impossible.
+  - La position de la fenêtre de code n'est pas intelligente, celle-ci est fixe.
+
+Le VR mode d'Unreal Engine a créer une nouvelle approche. Elle permet de se déplacer avec aisance dans une scène, et éditer son contenu : Instancier des objets, les déplacer, incliner, agrandir/réduire, copier, détruire… Cela présente une réelle avancée et conforte une partie de mes hypothèses. Malheuresement rien ne permet de développer en VR dans Unreal Engine.
+
+### Design d'Interface de programmation VR
+
+Difficile de designer une interface de programmation VR pour chaque logiciels grand public présents et futurs. Néanmoins, des règles de bonnes pratique peuvent être définies. Des règles qui peuvent s'appliquer de manière générique, qui facilite la vie des développeurs. 
+  - L'utilisateur doit pouvoir se déplacer librement dans la scène, sans même avoir à bouger. Il peut en quelque sorte manipuler la scène : réduire la scène pour avoir une vision plus globale, ou déplacer la scène dans un sens ou dans un autre pour avoir la vision ciblée sur un élément particulier.
+  - L'utilisateur doit pouvoir sélectionner un élément pour en observer ou modifier ses propriétés de manière manuelle. Il peut modifier sa taille, sa position, rotation, texture etc… Lors de la sélection, un afficheur tête haute (HUD) apparaitrait non loin de l'objet afin d'en visionner / manipuler les propriétés.
+  - L'utilisateur doit être en mesure de voir et manipuler l'arborescence des objets dans la scène et dans le dossier des objets du projet. Ceci pourra se faire via une fenêtre omniprésente ou non, fixe ou mobile.
+  - L'utilisateur doit pouvoir accéder au code d'un objet, en le sélectionnant dans la scène ou dans les objets disponibles du projet.
+  - L'utilisateur peut lancer ou arrêter, ou mettre en pause la simulation. 
+  - Il doit être apte à voir une console lui rapportant des erreurs ou infos pendant ou hors simulation.  
+
+` Les outils actuels ont été conceptualisés pour un besoin à un instant donné : création de contenu observable sur un écran plat. Hors Le besoin peut évoluer au cours du temps et les technologies aussi. Des innovations peuvent apparaître et l'utilisation peut changer (exemple fort boyard). C'est pour cela que la conception de Jeux VR au travers de Unity par exemple n'est plus adaptée. Il y a une dichotomie quand à l'utilisation des casques VR. Les casques sont utilisés seulement une fois que le développement est fait. C'est comme si nous fabriquions un avion, sans même être dans le hangar ou connaitre l'environnement il va s'inscrire, comme l'aeroport par exemple. Les casques de VR sont uniquement utilisé comme medium d'expèrience. Pourquoi ne pas l'utiliser aussi comme medium de travail ?`
+
+## Tester son design
+À ce point là, je me pose la question de comment puis-je tester mon design. En effet, une fois la solution designé, le produit doit être modifié, ou des fonctionnalités sont à coder. La question se pose donc : Comment tester que mon design est le bon avant même de se lancer dans une phase de développement très longue ?
+De même, le choix du logiciel et son étude de fonctionnement est un temps supplémentaire non négligeable à allouer.
+J'ai trouvé que ce que je faisais ici étais de le design fonctionnel.
