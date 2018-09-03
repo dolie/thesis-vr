@@ -99,58 +99,52 @@ https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence c
 ### Processus de recherche
 
 ### Conception centrée utilisateur
-Afin de conceptualiser la meilleur solution possible, je vais utiliser la méthodologie de conception centré utilisateur décrite par IDEO. 
+Afin de conceptualiser la meilleur solution possible, je vais utiliser la méthodologie de conception centré utilisateur.
 Une conception centrée sur l'humain c'est comprendre que la personne concernée par la problématique est la première personne à pouvoir nous aider. Elle informera précisément et révélera les problématiques les plus pertinentes.
 Ce sont eux qui sont la clé de la solution.
+Cette méthodologie permet d'avoir un inpact réel. Cela se traduit par la production d'une solution désirable, faisable technologiquement, et viable financièrement.
+![Solution désirable, faisable, viable](./images/piliers.png)
+
 Le processus se décrit en trois grande phases : 
   - Inspiration : ici, l'utilisateur est observé, étudié, questionné. Le but est d'accumuler un maximum d'information afin de comprende la problématique de manière optimale.
   - Idéation : cette phase permet l'emulsion d'idée. Elle est très fertile et créative. Toute les solutions sont imaginées sans limites, discutées, débatues, prototypées,testées, acceptée ou réfutées…
   - Inplémentation : enfin, on imagine comment intégrer notre solution dans son contexte initial.
 
-Cette méthodologie permet d'avoir un inpact réel. Cela se traduit par la production d'une solution désirable, faisable technologiquement, et viable financièrement.
+![Les trois grandes phases du design centré humain](./images/3phases.png)
 
 ### Les outils
-Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans son guide pratique. Chaque projet est unique. Ainsi certains sont plus pertinents que d'autres suivant le contexte. Les outils choisis pour cette étude sont les suivants :
+Les outils existants sont innombrables. Par exemple, IDEO en répertorie 57 dans son guide pratique. Chaque projet est unique. Ainsi certains sont plus pertinents que d'autres suivant le contexte. 
+Les outils que j'ai choisis pour cette étude sont les suivants :
+
   - Définition du cadre du défi conceptuel
-  - Créer un plan de projet
-  
   - Entretiens
   - Immersion
 
-  - degager les thèmes
-  - Formulation des problématiques
+  - Dégager les thèmes
+  - Formulation des révélations
   - Comment ferions nous pour
-  - Créer des représentations visuelles
-  - brainstorming
-  - Regroupements d'idées
+  - Reflexion sur les idées
+  - Regroupement d'idées
+  - Recherches 
+
   - Dégager un concept
-  - Vérifier l'intuition
-  - Choisir les idées à prototyper
-  - Story board
-  - Prototypage rapide
+  - Choix des idées à prototyper
+  - Prototypage rapide, Story board
 
 ## Phase d'Inspiration
 Dans cette phase d'inspiration, il s'agit de s'ouvrir aux autres, afin d'apprendre et de comprendre la vision et ce que ressente les utilisateurs, et déceler leur désirs. La première des qualité à avoir pendant cette phase est bien évidemment l'empathie.  
 
-### Définission du cadre du problème
-Quel est le problème que vous essayez de résoudre ?
-  Le problème que j'essaie de résoudre concerne la réalité virtuelle. J'aimerais faciliter le travail des développeurs en réalité virtuelle.
-
-  1. Exprimez-le sous la forme d’une question.
-    Comment optimiser le développement de jeux vidéos, et expèrience VR ? Comment rendre le développement plus facile ? Comment le rendre plus intuitif ?
-
-  2. Maintenant, énoncez l’impact optimal que vous espérez produire.
-    Les développeur VR sentent un développement plus intuitif, et ressentent un gain en productivité. Il sentent les outils materiels et logiciels parfaitement adaptés au développement en VR. 
-
-  3. Quelles sont les solutions possibles à votre problème ? Pensez large. C’est bien d’aborder un projet avec une ou deux idées sur la solution, mais assurez-vous qu’elles soient suffisamment ouvertes pour permettre des résultats surprenants.
-    Revoir l'utilisation du casque, du clavier, de la souris, la manière de développer pour une utilisation plus appropriée.
-  4. Enfin, notez le contexte et les contraintes auxquels vous êtes confronté. Il peut s’agir de contraintes géographiques, technologiques, chronologiques ou concernant la population que vous essayez d’atteindre.
-    Les contraintes existantes sont, de par la naissance de la technologie, le peu de personnes développant des expèriences VR, et les outils peu nombreux.  
-  5. Votre question initiale a-t-elle besoin d’être affinée ? Recommencez
+### Définition du cadre du problème
+Le problème que j'essaie de résoudre concerne la réalité virtuelle. J'aimerais faciliter le travail des développeurs en réalité virtuelle.
+Comment optimiser le développement de jeux vidéos, et expèrience VR ? Comment rendre le développement plus facile ? Comment le rendre plus intuitif ?
+L'impact optimal que j'essaie de produire c'est que les développeurs VR sentent un développement plus intuitif, et ressentent un gain en productivité. Il sentent les outils materiels et logiciels parfaitement adaptés au développement en VR. 
+Les solutions possibles à mon problème serait de revoir l'utilisation du casque, du clavier, de la souris, la manière de développer pour une utilisation plus appropriée.
+Des contraintes sont existantes. La technologie est assez jeune, le materiel est assez encombrant et onéreux. Encore peu de personnes développent des expèriences VR. Les outils sont encore peu nombreux. De plus le temps pour réaliser mon étude, de la phase d'inspiration à la phase d'implémentation, est assez réduit.
 
 ### Les entretiens
 Les entretiens se trouvent au cœur de la phase d'Inpiration de la conception centrée utilisateur. En effet, ils permettent de cerner et comprendre les besoins des utilisateurs ainsi que leur aspirations.
-En annexe, le guide d'entretien.
+De part la rareté des développeur VR, et part leur manque de temps à m'allouer, je n'ai pu m'entretenir qu'avec cinq personnes.
+Voici, ci-dessous les résultats de trois entretiens.
 
 **Questions générales**
 Quel age as-tu ? 
@@ -255,6 +249,7 @@ Avoir ma propre pièce pour jouer / développer.
 
 ### Immersion
 Afin de parfaitement comprendre comment les développeur VR travaillent, leur problématique, je suis allé chez Christophe pour l'observer. Il m'a acceuilli un jour où ses colocataires étaient absents afin d'être plus tranquilles. Je m'intalle et l'observer pendant sa conception. 
+![Christophe testant son HTC Vive](./images/Christophe.png)
 Le salon mesure environ trois mètres sur quatres. Son canapé lit contre le mur et son bureau dans le coin. Les contrôleurs et le casque sont posé par terre au centre de la pièce. 
 Il commence son travaille devant son ordinateur. Il utilise unity et commence par placer ses objets dans la scène et à créer les scripts associés. Il développe un petit peu puis se lève de son siège pour aller vêtir le casque et les contrôleur afin d'essayer. Il repose le tout par terre en me disant qu'il s'est trompé et que ce n'est pas au bon endroit. Plus tard, au bout de quelques essais, je remarque qu'il ne prends plus la peine de se lever de sa chaise. 
 Dorénavant, il roule avec sa chaise jusqu'au casque, puis se penche pour l'attraper. 
@@ -264,7 +259,7 @@ Enfin, au bout de 45 minutes il ne prends plus la peine d'enlever le casque de s
 ## Phase d'idéation
 Dans cette phase, je vais rassembler et analyser les données receuillies. Je vais alors produire une grande quantité d'idée et identifier des opportunitées de design. Tout ceci deviendra de plus en plus concret grâce à l'élaboration des premiers prototypes. Ces prototypes seront soumis à un regard critique pour collecter des avis précieux et ainsi affiner les prototypes.  
 
-### Rétrospective des entretiens et de l'immersion
+### Les thèmes qui se dégagent.
 Au travers des entretiens et de l'immersion, des motifs et des thèmes conducteurs émergent : (graphiques patatoïde)
   - Répétition de mouvement
   - Outils materiels et logiciels
