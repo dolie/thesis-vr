@@ -90,6 +90,14 @@ Si nous voulons créer des expèriences en réalité virtuelle de manière effic
 
 https://www.youtube.com/watch?v=TCHoQAT5LK8 Michel Bigan maitre de conférence centrale lille.
 
+## Contexte
+
+### Motivation personnelle
+
+### Question primaire
+
+### Processus de recherche
+
 ### Conception centrée utilisateur
 Afin de conceptualiser la meilleur solution possible, je vais utiliser la méthodologie de conception centré utilisateur décrite par IDEO. 
 Une conception centrée sur l'humain c'est comprendre que la personne concernée par la problématique est la première personne à pouvoir nous aider. Elle informera précisément et révélera les problématiques les plus pertinentes.
@@ -462,4 +470,3 @@ Le storyboard représente un dévellopeur souhaitant recevoir des gouttes de plu
 
 ## Conclusion
 Les ateliers menés durant la phase d'inspiration m'ont permis d'adopter le point de vue des développeur VR. J'ai pu comprendre leurs problématiques, et leurs besoins. Le résultat de cette étude prouvent que les logiciels utilisés pour la réalisation d'experience VR posent des problèmes d'utilisabilité. Pour résoudre ces problèmes, j'ai recherché des idées, je les aies rassemblées, rafinées, voir pour certaines, écartées. De cet émulsion d'idée est resorti deux solutions plausibles. Soit modifier la façon de développer, soit intégrer le clavier dans une utilisation VR. La première solution est interressante mais nécessite beaucoup de recherches techniques et ergonomique. La seconde, en revanche, est accessible techniquement et modifie peu les habitudes des développeurs. J'ai donc choisi cette dernière solution pour le prototypage sous forme de storyboard afin de la tester. Les retours ont été positif, ce qui me conforte dans le choix de cette solution. La prochaine étape sera d'avoir un prototype fonctionnel, pour tester des fonctionnalitées de bases et en vérifier l'utilisabilité auprès des utilisateurs. 
-
